@@ -48,7 +48,7 @@ function First() {
 
     return (
         <>
-            <div className="sm:h-screen  bg-blue-50 bg-fixed sm:bg-cover sm:bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]" >
+            <div className="sm:h-screen   bg-blue-50   bg-fixed sm:bg-cover sm:bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]" >
                 {/* Logo */}
                 <div className='px-5 pt-10 xs:px-10 md:px-7 lg:px-16 '>
                     <img src='/logo.png' alt='logo' className='  w-20 h-7 ' />
@@ -103,7 +103,7 @@ function First() {
                 </div>
                         {/* Footer */}
                         <div className='pb-4 h-1/4'>
-                    <p className='text-white text-center text-xs xs:pt-48 sm:pt-64 lg:pt-96'>Copyrights @ Root Integrated Technologies Pvt. Ltd 2023</p>
+                    <p className='text-white text-center text-xs xs:pt-4 sm:pt-48 lg:pt-96'>Copyrights @ Root Integrated Technologies Pvt. Ltd 2023</p>
                 </div>
             </div >
         </>
