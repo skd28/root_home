@@ -57,10 +57,10 @@ function First() {
                 <div className=' w-full  pt-8  md:grid md:grid-cols-2 ' >
                     {/* Text part */}
                     <div className=' mx-auto md:mx-0 md:px-7 lg:px-16 sm:text-center  xs:text-center md:text-left text-center ' >
-                        <h1 className='text-white text-[2rem] font-semibold xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >Get ready for</h1>
-                        <h1 className='text-white text-[2rem] font-semibold bottom-4 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >your</h1>
-                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]'> technological</h1>
-                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]'>journey.</h1>
+                        <h1 className='text-white text-[2rem] font-semibold xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]' >Get ready for</h1>
+                        <h1 className='text-white text-[2rem] font-semibold bottom-4 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]' >your</h1>
+                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]'> technological</h1>
+                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]'>journey.</h1>
                         <p className='text-white bottom-5 relative '>We are halfway....</p>
                     </div>
                     {/* Counter */}
@@ -98,7 +98,7 @@ function First() {
                     </div>
                 </div>
                 {/* Footer */}
-                <div className=' '>
+                <div className='  mt-[6%] pb-[5%] '>
                     <p className='text-white text-center text-xs '>Copyrights @ Root Integrated Technologies Pvt. Ltd 2023</p>
                 </div>
             </div >
