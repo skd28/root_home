@@ -93,7 +93,7 @@ function First() {
                 <div className='px-5 pt-10 xs:px-10 md:px-7 lg:px-16 '>
                     <img src='/logo.png' alt='logo' className='  w-20 h-7 ' />
                 </div>
-                <div className=' w-full h-4/5  pt-8 grid grid-flow-row md:grid-flow-col ' >
+                <div className=' w-full h-4/5  pt-8 grid grid-flow-row md:grid-flow-col' >
                     <div className=' mx-auto md:mx-0 md:px-7  lg:px-16' >
                         <h1 className='text-white text-[2rem] font-semibold xs:text-[4rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >Get ready for</h1>
                         <h1 className='text-white text-[2rem] font-semibold bottom-4 relative xs:text-[4rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >your</h1>
@@ -102,7 +102,7 @@ function First() {
                         <p className='text-white bottom-5 relative '>We are halfway....</p>
                     </div>
 
-                    <div className='text-center items-center justify-center relative grid grid-flow-row mx-auto  md:mx-0' >
+                    <div className='text-center items-center justify-center relative grid grid-flow-row mx-auto md:mx-0 ' >
                         <div className='grid grid-flow-col gap-20  md:gap-10 '>
                             <div>
                                 <span className='text-[4rem] font-semibold text-white xs:text-[5rem] sm:text-[6rem] md:text-[5rem] lg:text-[6rem]'  >
@@ -135,7 +135,7 @@ function First() {
 
                     </div>
                 </div>
-                <div className=' pt-16'>
+                <div className='md:pt-0 pt-16'>
                     <p className='text-white text-center text-xs '>Copyrights @ Root Integrated Technologies Pvt. Ltd 2023</p>
                 </div>
             </div >
