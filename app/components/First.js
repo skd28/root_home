@@ -48,7 +48,7 @@ function First() {
 
     return (
         <>
-            <div className=" bg-blue-50 bg-scroll bg-cover bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]" >
+            <div className=" bg-blue-50 bg-fixed  bg-cover bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]" >
                 {/* Logo */}
                 <div className='px-5 pt-10 xs:px-10 md:px-7 lg:px-16 '>
                     <img src='/logo.png' alt='logo' className='  w-20 h-7 ' />
