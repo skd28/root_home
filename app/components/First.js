@@ -48,7 +48,7 @@ function First() {
 
     return (
         <>
-            <div className=" bg-blue-50 bg-fixed h-fit bg-cover bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]" >
+            <div className="sm:h-screen  bg-blue-50 bg-fixed sm:bg-cover sm:bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]" >
                 {/* Logo */}
                 <div className='px-5 pt-10 xs:px-10 md:px-7 lg:px-16 '>
                     <img src='/logo.png' alt='logo' className='  w-20 h-7 ' />
@@ -57,8 +57,11 @@ function First() {
                 <div className=' w-full  pt-8  md:grid md:grid-cols-2 ' >
                     {/* Text part */}
                     <div className=' mx-auto md:mx-0 md:px-7 lg:px-16 sm:text-center  xs:text-center md:text-left text-center ' >
+                      
                         <h1 className='text-white text-[2rem] font-semibold xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]' >Get ready for</h1>
                         <h1 className='text-white text-[2rem] font-semibold bottom-4 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]' >your</h1>
+                         
+                        
                         <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]'> technological</h1>
                         <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[4rem]'>journey.</h1>
                         <p className='text-white bottom-5 relative '>We are halfway....</p>
@@ -96,10 +99,11 @@ function First() {
                         </div>
 
                     </div>
+            
                 </div>
-                {/* Footer */}
-                <div className='  mt-[6%] pb-[5%] '>
-                    <p className='text-white text-center text-xs '>Copyrights @ Root Integrated Technologies Pvt. Ltd 2023</p>
+                        {/* Footer */}
+                        <div className='pb-4 h-1/4'>
+                    <p className='text-white text-center text-xs xs:pt-48 sm:pt-64 lg:pt-96'>Copyrights @ Root Integrated Technologies Pvt. Ltd 2023</p>
                 </div>
             </div >
         </>
