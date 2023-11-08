@@ -48,23 +48,22 @@ function First() {
 
     return (
         <>
-            <div className=" bg-blue-50 h-full  bg-cover bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]"
-                style={{
-                    // backgroundImage: `url('/Desktop.jpg')`, lg:bg-[url('/Desktop.jpg')]  md:bg-[url('/mobile.jpg')]
-                }}
-            >
+            <div className=" bg-blue-50 bg-scroll bg-cover bg-center bg-[url('/mobile.jpg')] md:bg-[url('/Desktop.jpg')]" >
+                {/* Logo */}
                 <div className='px-5 pt-10 xs:px-10 md:px-7 lg:px-16 '>
                     <img src='/logo.png' alt='logo' className='  w-20 h-7 ' />
                 </div>
-                <div className=' w-full h-4/5  pt-8 grid grid-rows-2 md:grid md:grid-cols-2' >
-                    <div className=' mx-auto md:mx-0 md:px-7  lg:px-16' >
-                        <h1 className='text-white text-[2rem] font-semibold xs:text-[4rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >Get ready for</h1>
-                        <h1 className='text-white text-[2rem] font-semibold bottom-4 relative xs:text-[4rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >your</h1>
-                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[4rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]'> technological</h1>
-                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[4rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]'>journey.</h1>
+
+                <div className=' w-full  pt-8  md:grid md:grid-cols-2 ' >
+                    {/* Text part */}
+                    <div className=' mx-auto md:mx-0 md:px-7 lg:px-16 sm:text-center  xs:text-center md:text-left text-center ' >
+                        <h1 className='text-white text-[2rem] font-semibold xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >Get ready for</h1>
+                        <h1 className='text-white text-[2rem] font-semibold bottom-4 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]' >your</h1>
+                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]'> technological</h1>
+                        <h1 className='text-[#61ABEB] text-[2rem] font-semibold bottom-5 relative xs:text-[3rem] sm:text-[5rem] md:text-[4rem] lg:text-[5rem]'>journey.</h1>
                         <p className='text-white bottom-5 relative '>We are halfway....</p>
                     </div>
-
+                    {/* Counter */}
                     <div className='text-center items-center justify-center relative grid grid-rows-2 mx-auto md:mx-0 ' >
                         <div className='grid grid-cols-2 gap-20  md:gap-10 '>
                             <div>
@@ -98,7 +97,8 @@ function First() {
 
                     </div>
                 </div>
-                <div className='md:pt-0 pt-16'>
+                {/* Footer */}
+                <div className=' '>
                     <p className='text-white text-center text-xs '>Copyrights @ Root Integrated Technologies Pvt. Ltd 2023</p>
                 </div>
             </div >
