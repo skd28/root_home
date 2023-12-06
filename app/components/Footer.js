@@ -2026,7 +2026,7 @@ function Footer() {
               }`}
               onClick={() => handleTabClick("tab1")}
             >
-              Executive
+              Core Team
             </button>
             <button
               className={`py-8 px-14 border text-2xl text-white w-full ${
