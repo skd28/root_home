@@ -1033,7 +1033,7 @@ function Footer() {
           <div className="w-full h-3/5 text-[#61ABEB] text-8xl font-semibold font-inter  ">
             Building security for tomorrow
           </div>
-          <div className="text-white w-2/3 text-3xl ">
+          <div className="text-white w-2/3 text-3xl mt-5 ">
             At Root, we innovate advanced security networks and develop products
             tailored for the next generation.
           </div>
