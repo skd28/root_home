@@ -21,5 +21,20 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.scrollbar-hide': {
+          scrollbarWidth: 'none',
+          '-ms-overflow-style': 'none',
+          'scrollbar-color': 'transparent transparent', // for Firefox
+        },
+        '.scrollbar-hide::-webkit-scrollbar': {
+          display: 'none',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 }
