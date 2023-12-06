@@ -1,6 +1,8 @@
 "use client"
 import React from "react";
 import { useState } from "react";
+import Lotiee from 'lottie-react';
+import home from './/home_page.json';
 
 function Footer() {
   const data1 = [
@@ -1036,12 +1038,13 @@ function Footer() {
             tailored for the next generation.
           </div>
         </div>
-        <div className=" ">
-          <img
+        <div >
+          <Lotiee animationData={home} className="w-4/5 h-4/5  mt-0 relative left-28 ms-3"></Lotiee>
+          {/* <img
             src="/Gorup.png"
             alt="logo"
             className="w-4/5 h-4/5  mt-36 relative left-28 ms-3"
-          />
+          /> */}
         </div>
       </div>
 

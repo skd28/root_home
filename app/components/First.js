@@ -14,7 +14,7 @@ function First() {
     });
 
     useEffect(() => {
-        var countDownDate = new Date("Dec 7, 2023 23:59:59").getTime();
+        var countDownDate = new Date("Dec 7, 2023 11:00:00").getTime();
 
 
         var x = setInterval(function () {
