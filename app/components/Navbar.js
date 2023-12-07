@@ -4,7 +4,7 @@ import React from 'react'
 function Navbar() {
     return (
         <>
-            <div className='bg-[#0F5AA9] grid grid-flow-col py-4 '>
+            <div className='lg:bg-[#0F5AA9] lg:grid lg:grid-flow-col lg:py-4 hidden '>
                 <div className='float-left  grid grid-flow-col '>
 
                     <div className='w-1/2 '>

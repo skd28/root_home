@@ -4,142 +4,71 @@ import { useState } from "react";
 import Lotiee from 'lottie-react';
 import home from './/home_page.json';
 
-function Footer() {
+function Home() {
   const data1 = [
     {
       id: 1,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Executive",
+      name: "Ali Dhoon",
+      Deaprt: "CEO",
     },
     {
       id: 2,
       name: "Abdul Qadir Badri",
-      Deaprt: "Executive",
+      Deaprt: "Director - Marketing",
     },
     {
       id: 3,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Executive",
+      name: "Yusuf Hyderbhoy",
+      Deaprt: "Director",
     },
-    {
-      id: 4,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Executive",
-    },
-    {
-      id: 5,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Executive",
-    },
+   
   ];
-
+  
   const data2 = [
     {
       id: 1,
-      name: "Abdul Qadir Badri",
-      Deaprt: "HR",
+      name: "Mohammed Wasif",
+      Deaprt: "Full Stack Developer",
     },
     {
       id: 2,
-      name: "Abdul Qadir Badri",
-      Deaprt: "HR",
+      name: "Gaurang Bhesaniya",
+      Deaprt: "Mobile Application Developer",
     },
     {
       id: 3,
-      name: "Abdul Qadir Badri",
-      Deaprt: "HR",
+      name: "Jan Patel",
+      Deaprt: "Power BI Engineer",
     },
     {
       id: 4,
-      name: "Abdul Qadir Badri",
-      Deaprt: "HR",
+      name: "Ajit Singh",
+      Deaprt: "SEO Executive",
     },
     {
       id: 5,
-      name: "Abdul Qadir Badri",
-      Deaprt: "HR",
-    },
-  ];
-
-  const data3 = [
-    {
-      id: 1,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Networking",
+      name: "Fakhruddin Ezzey",
+      Deaprt: "Full Stack Developer",
     },
     {
-      id: 2,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Networking",
+      id: 6,
+      name: "Jaymil Dabhi",
+      Deaprt: "Software Developer",
     },
     {
-      id: 3,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Networking",
+      id: 7,
+      name: "Krushali Limbad",
+      Deaprt: "Software Developer Intern",
     },
     {
-      id: 4,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Networking",
+      id: 8,
+      name: "Shivanjal Dwivedi",
+      Deaprt: "Full Stack Intern",
     },
     {
-      id: 5,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Networking",
-    },
-  ];
-  const data4 = [
-    {
-      id: 1,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Security",
-    },
-    {
-      id: 2,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Security",
-    },
-    {
-      id: 3,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Security",
-    },
-    {
-      id: 4,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Security",
-    },
-    {
-      id: 5,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Security",
-    },
-  ];
-  const data5 = [
-    {
-      id: 1,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Developers",
-    },
-    {
-      id: 2,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Developers",
-    },
-    {
-      id: 3,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Developers",
-    },
-    {
-      id: 4,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Developers",
-    },
-    {
-      id: 5,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Developers",
+      id: 9,
+      name: "Pranav Bhatt",
+      Deaprt: "Flutter Developer Intern",
     },
   ];
 
@@ -1028,6 +957,7 @@ function Footer() {
 
   return (
     <>
+     <div className=" hidden lg:block">
       <div className=" bg-black  grid grid-cols-2   ">
         <div className="  my-20 relative left-14">
           <div className="w-full h-3/5 text-[#61ABEB] text-8xl font-semibold font-inter  ">
@@ -1049,7 +979,7 @@ function Footer() {
       </div>
 
       {/* Landing Page Two */}
-      <div className="bg-[#001131]  grid grid-flow-col  py-10 gap-10 ">
+      <div className="bg-[#001131]  grid grid-flow-col    py-10 gap-10 ">
         <div className="text-white grid grid-flow-col ">
           <div className="relative left-7">
             <div className=" grid grid-flow-row ">
@@ -1228,7 +1158,7 @@ function Footer() {
       </div>
 
       {/* Landing Page 3 */}
-      <div className="bg-black">
+      <div className="bg-black  ">
         <div className=" px-10 text-white text-8xl font-bold font-inter pt-10 ">
           You Name It. We Have It
         </div>
@@ -2034,39 +1964,7 @@ function Footer() {
               }`}
               onClick={() => handleTabClick("tab2")}
             >
-              HR
-            </button>
-            <button
-              className={`py-8 px-4 border text-2xl text-white w-full ${
-                activeTab === "tab3" ? "bg-blue-500 text-white" : ""
-              }`}
-              onClick={() => handleTabClick("tab3")}
-            >
-              Networking
-            </button>
-            <button
-              className={`py-8 px-4 border text-2xl text-white w-full ${
-                activeTab === "tab4" ? "bg-blue-500 text-white" : ""
-              }`}
-              onClick={() => handleTabClick("tab4")}
-            >
-              Security
-            </button>
-            <button
-              className={`py-8 px-4 border text-2xl text-white w-full ${
-                activeTab === "tab5" ? "bg-blue-500 text-white" : ""
-              }`}
-              onClick={() => handleTabClick("tab5")}
-            >
               Developers
-            </button>
-            <button
-              className={`py-8 px-4 border text-2xl text-white w-full ${
-                activeTab === "tab6" ? "bg-blue-500 text-white" : ""
-              }`}
-              onClick={() => handleTabClick("tab6")}
-            >
-              Marketing
             </button>
           </div>
         </div>
@@ -2074,10 +1972,10 @@ function Footer() {
         <div className="text-white ">
           <div className="mt-4">
             {activeTab === "tab1" && (
-              <div className="realtive flex items-center mx-10 py-5 ">
+              <div className="realtive flex items-center mx-10 py-5  ">
                 <div
                   id="slider"
-                  className="w-full h-full overflow-x-scroll scroll whitespace-nowrap  scroll-smooth scrollbar-hide  "
+                  className="w-full h-full overflow-x-scroll  scroll whitespace-nowrap  scroll-smooth scrollbar-hide  "
                 >
                   {data1.map((item, key) => (
                     <div
@@ -2119,98 +2017,10 @@ function Footer() {
                 </div>
               </div>
             )}
-            {activeTab === "tab3" && (
-              <div className="realtive flex items-center mx-10 py-5 ">
-                <div
-                  id="slider"
-                  className="w-full h-full overflow-x-scroll scroll whitespace-nowrap  scroll-smooth scrollbar-hide  "
-                >
-                  {data3.map((item, key) => (
-                    <div
-                      key={item.id}
-                      className=" w-1/3 inline-block p-5 cursor-pointer hover:scale-105 ease-in-out duration-300 "
-                    >
-                      <div className="w-64 h-64 bg-zinc-300 rounded-full"></div>
-                      <div className="w-72 h-10 text-white text-3xl font-bold font-inter py-4">
-                        {item.name}
-                      </div>
-                      <div className="w-60 h-10 text-white text-xl font-normal font-inter py-3">
-                        {item.Deaprt}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-            {activeTab === "tab4" && (
-              <div className="realtive flex items-center mx-10 py-5 ">
-                <div
-                  id="slider"
-                  className="w-full h-full overflow-x-scroll scroll whitespace-nowrap  scroll-smooth scrollbar-hide  "
-                >
-                  {data4.map((item, key) => (
-                    <div
-                      key={item.id}
-                      className=" w-1/3 inline-block p-5 cursor-pointer hover:scale-105 ease-in-out duration-300 "
-                    >
-                      <div className="w-64 h-64 bg-zinc-300 rounded-full"></div>
-                      <div className="w-72 h-10 text-white text-3xl font-bold font-inter py-4">
-                        {item.name}
-                      </div>
-                      <div className="w-60 h-10 text-white text-xl font-normal font-inter py-3">
-                        {item.Deaprt}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-            {activeTab === "tab5" && (
-              <div className="realtive flex items-center mx-10 py-5 ">
-                <div
-                  id="slider"
-                  className="w-full h-full overflow-x-scroll scroll whitespace-nowrap  scroll-smooth scrollbar-hide  "
-                >
-                  {data5.map((item, key) => (
-                    <div
-                      key={item.id}
-                      className=" w-1/3 inline-block p-5 cursor-pointer hover:scale-105 ease-in-out duration-300 "
-                    >
-                      <div className="w-64 h-64 bg-zinc-300 rounded-full"></div>
-                      <div className="w-72 h-10 text-white text-3xl font-bold font-inter py-4">
-                        {item.name}
-                      </div>
-                      <div className="w-60 h-10 text-white text-xl font-normal font-inter py-3">
-                        {item.Deaprt}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-            {activeTab === "tab6" && (
-              <div className="realtive flex items-center mx-10 py-5 ">
-                <div
-                  id="slider"
-                  className="w-full h-full overflow-x-scroll scroll whitespace-nowrap  scroll-smooth scrollbar-hide  "
-                >
-                  {data6.map((item, key) => (
-                    <div
-                      key={item.id}
-                      className=" w-1/3 inline-block p-5 cursor-pointer hover:scale-105 ease-in-out duration-300 "
-                    >
-                      <div className="w-64 h-64 bg-zinc-300 rounded-full"></div>
-                      <div className="w-72 h-10 text-white text-3xl font-bold font-inter py-4">
-                        {item.name}
-                      </div>
-                      <div className="w-60 h-10 text-white text-xl font-normal font-inter py-3">
-                        {item.Deaprt}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+            
+            
+           
+           
           </div>
         </div>
       </div>
@@ -2406,8 +2216,9 @@ function Footer() {
           </p>
         </div>
       </div>
+      </div>
     </>
   );
 }
 
-export default Footer;
+export default Home;
