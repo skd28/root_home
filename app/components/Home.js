@@ -9,17 +9,17 @@ function Home() {
     {
       id: 1,
       name: "Ali Dhoon",
-      Deaprt: "CEO",
+     // Deaprt: "CEO",
     },
     {
       id: 2,
       name: "Abdul Qadir Badri",
-      Deaprt: "Director - Marketing",
+     // Deaprt: "Director - Marketing",
     },
     {
       id: 3,
       name: "Yusuf Hyderbhoy",
-      Deaprt: "Director",
+     // Deaprt: "Director",
     },
    
   ];
@@ -28,77 +28,50 @@ function Home() {
     {
       id: 1,
       name: "Mohammed Wasif",
-      Deaprt: "Full Stack Developer",
+      //Deaprt: "Full Stack Developer",
     },
     {
       id: 2,
       name: "Gaurang Bhesaniya",
-      Deaprt: "Mobile Application Developer",
+     // Deaprt: "Mobile Application Developer",
     },
     {
       id: 3,
       name: "Jan Patel",
-      Deaprt: "Power BI Engineer",
+     // Deaprt: "Power BI Engineer",
     },
     {
       id: 4,
       name: "Ajit Singh",
-      Deaprt: "SEO Executive",
+     // Deaprt: "SEO Executive",
     },
     {
       id: 5,
       name: "Fakhruddin Ezzey",
-      Deaprt: "Full Stack Developer",
+      //Deaprt: "Full Stack Developer",
     },
     {
       id: 6,
       name: "Jaymil Dabhi",
-      Deaprt: "Software Developer",
+      //Deaprt: "Software Developer",
     },
     {
       id: 7,
       name: "Krushali Limbad",
-      Deaprt: "Software Developer Intern",
+     // Deaprt: "Software Developer Intern",
     },
     {
       id: 8,
       name: "Shivanjal Dwivedi",
-      Deaprt: "Full Stack Intern",
+     // Deaprt: "Full Stack Intern",
     },
     {
       id: 9,
       name: "Pranav Bhatt",
-      Deaprt: "Flutter Developer Intern",
+     // Deaprt: "Flutter Developer Intern",
     },
   ];
 
-  const data6 = [
-    {
-      id: 1,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Marketing",
-    },
-    {
-      id: 2,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Marketing",
-    },
-    {
-      id: 3,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Marketing",
-    },
-    {
-      id: 4,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Marketing",
-    },
-    {
-      id: 5,
-      name: "Abdul Qadir Badri",
-      Deaprt: "Marketing",
-    },
-  ];
   const infra_s1 = [
     {
       id: 1,
