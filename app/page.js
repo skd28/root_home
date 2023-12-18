@@ -1,16 +1,19 @@
 "use client"
 import Image from 'next/image'
-import { useState, useEffect } from 'react';
-import First from './components/First';
+
 import Hidden from './components/Hidden';
+import Navbar from './components/Navbar';
+import Landing from './components/Landing';
 
 
 
 
-export default function Home() {
+export default function page() {
   return (
     <>
-      <First />
+      <Navbar/>
+       <Landing/>
+      <Hidden/>
     </>
   )
 }

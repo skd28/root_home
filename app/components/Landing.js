@@ -2,9 +2,9 @@
 import React from "react";
 import { useState } from "react";
 import Lotiee from 'lottie-react';
-import home from './/home_page.json';
+import home from './/Root_Home_Page_Lotee.json';
 
-function Home() {
+function Landing() {
   const data1 = [
     {
       id: 1,
@@ -930,7 +930,11 @@ function Home() {
 
   return (
     <>
+    
+
      <div className=" hidden lg:block">
+
+       {/* Landing Page One */}
       <div className=" bg-black  grid grid-cols-2   ">
         <div className="  my-20 relative left-14">
           <div className="w-full h-3/5 text-[#61ABEB] text-8xl font-semibold font-inter  ">
@@ -942,7 +946,7 @@ function Home() {
           </div>
         </div>
         <div >
-          <Lotiee animationData={home} className="w-4/5 h-4/5  mt-0 relative left-28 ms-3"></Lotiee>
+          <Lotiee animationData={home} className="w-4/5 h-4/5   relative left-28 mt-14 ms-3"></Lotiee>
           {/* <img
             src="/Gorup.png"
             alt="logo"
@@ -2194,4 +2198,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Landing;
