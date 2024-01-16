@@ -1,22 +1,13 @@
-"use client"
-import Image from 'next/image'
-
-import Hidden from './components/Hidden';
-import Navbar from './components/Navbar';
-import Landing from './components/Landing';
-
-
-
+import Hidden from "./components/Hidden";
+import Navbar from "./components/Navbar";
+import Landing from "./components/Landing";
 
 export default function page() {
   return (
     <>
-      <Navbar/>
-       <Landing/>
-      <Hidden/>
+      <Navbar />
+      <Landing />
+      <Hidden />
     </>
-  )
+  );
 }
-
-
-
