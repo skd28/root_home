@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 
+// Landing page update on this page
+
 function New_Page() {
   // for pushing new ref
   const data = [
