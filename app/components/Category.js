@@ -7,7 +7,7 @@ function Category({ cat }) {
 
   return (
     <>
-      <div className="border-2">
+      <div className="border-2 w-fit">
         <div
           onClick={() => changeCategory(cat.attributes.Title)}
           // className="p-4 rounded-lg shadow-sm cursor-pointer"

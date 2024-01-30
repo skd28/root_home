@@ -1,16 +1,18 @@
 import Blog from "../components/Blog";
 import Categories from "../components/Categories";
-// import { useState, useEffect } from "react";
 
 
 async function fetchCategories() {
   const options = {
     headers: {
-      Authorization: `Beare ${process.env.STAPI_API_TOKEN}`,
+      Authorization: `Bearer ${process.env.STAPI_API_TOKEN}`,
     },
   };
   try {
-    const res = await fetch("http://localhost:1337/api/categories", options);
+    const res = await fetch(
+      "https://blog-rta6.onrender.com/api/categories",
+      options
+    );
     const response = await res.json();
     // console.log("Fetch Functionsn:", response);
     return response;
@@ -22,16 +24,16 @@ async function fetchCategories() {
 async function fetchBlogs() {
   const options = {
     headers: {
-      Authorization: `Beare ${process.env.STAPI_API_TOKEN}`,
+      Authorization: `Bearer ${process.env.STAPI_API_TOKEN}`,
     },
   };
   try {
     const res = await fetch(
-      "http://localhost:1337/api/blogs?populate=*",
+      "https://blog-rta6.onrender.com/api/blogs?populate=*",
       options
     );
     const response = await res.json();
-     console.log("Fetch Functionsn Blogs:",response);
+    // console.log("Fetch Functionsn Blogs:", response);
     return response;
   } catch (err) {
     console.error(err);
@@ -45,7 +47,7 @@ async function page() {
   return (
     <>
       {/* Navbar */}
-      <div className="bg-[#0F5AA9] grid grid-flow-col py-4  ">
+      {/* <div className="bg-[#0F5AA9] grid grid-flow-col py-4  ">
         <div className="float-left  grid grid-flow-col ">
           <div className="w-1/2 ">
             <img src="/logo_.png" alt="Logo not found" className="mx-auto " />
@@ -67,10 +69,10 @@ async function page() {
             Get Service Quote
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Page */}
-      <div className="bg-black">
+      {/* <div className="bg-black">
         <div className="pt-10 py-5 text-center text-white text-8xl font-bold font-inter">
           Check out our Blogs!
         </div>
@@ -78,16 +80,16 @@ async function page() {
           Our Ethos lies in developing products, networks and setting security
           by researching proper, developing faster, and keeping it robust.
         </div>
-      </div>
+      </div> */}
 
       {/* Categories */}
-      <Categories categories={categorie} />
+      {/* <Categories categories={categorie} /> */}
 
       {/* Blogs */}
-      <Blog blogs={blogs} />
+      {/* <Blog blogs={blogs} /> */}
 
       {/* Footer Page */}
-      <div className="bg-black px-14">
+      {/* <div className="bg-black px-14">
         <div className="bg-black grid grid-flow-col py-2">
           <img src="/group.png" alt="logo not found " className="py-2" />
           <ul className=" text-white grid grid-flow-col  relative right-40 items-center">
@@ -108,66 +110,11 @@ async function page() {
             Copyright © 2023 Root Technologies - All Rights Reserved.{" "}
           </p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
 
 export default page;
 
-{
-  /* {console.log(blog.attributes.img.data.attributes.formats.thumbnail.url)} */
-}
-{
-  /* <img src={`blog.attributes.img.data.attributes.formats.thumbnail.url`} alt="data"/> */
-}
 
-// const [categories, setCategories] = useState(null);
-// const [blogs, setBlogs] = useState(null);
-
-// useEffect(() => {
-//   const fetchData = async () => {
-//     const fetchedCategories = await fetchCategories();
-//     const blogs = await fetchBlogs();
-//     setCategories(fetchedCategories);
-//     setBlogs(blogs);
-//   };
-
-//   fetchData();
-// }, []);
-{
-  /* <div className="flex  px-48  bg-black py-5">
-        {categories && categories.data ? (
-          categories.data.map((category) => (
-            <div key={category.id} className="text-white border-2 text-2xl p-7">
-              {category.attributes.Title}
-            </div>
-          ))
-        ) : (
-          <p> </p>
-        )}
-      </div> */
-}
-{
-  /* <div>
-        {blogs && blogs.data ? (
-          blogs.data.map((blog) => (
-            <div key={blog.id}>
-              <h2>{blog.attributes.title}</h2>
-              <p>{blog.attributes.content}</p>
-              {console.log(blog.attributes.img.data.attributes.url)}
-              {blog.attributes.img && blog.attributes.img.data && (
-          <Image
-            src={blog.attributes.img.data.attributes.url}
-            alt={"image"}
-            width={30}
-            height={40}
-          />
-        )}
-            </div>
-          ))
-        ) : (
-          <p>Loading...</p>
-        )}
-      </div> */
-}

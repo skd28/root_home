@@ -927,11 +927,30 @@ function Landing() {
     setActiveTab(tab);
   };
 
+  const scrollLeft = () => {
+    const slider = document.getElementById("slider");
+    slider.scrollLeft -= 200; // Adjust the value based on your design
+  };
+
+  const scrollRight = () => {
+    const slider = document.getElementById("slider");
+    slider.scrollLeft += 200; // Adjust the value based on your design
+  };
+  const scrollLeft1 = () => {
+    const slider = document.getElementById("slider1");
+    slider.scrollLeft -= 200; // Adjust the value based on your design
+  };
+
+  const scrollRight1 = () => {
+    const slider = document.getElementById("slider1");
+    slider.scrollLeft += 200; // Adjust the value based on your design
+  };
+
   return (
     <>
-      <div className=" hidden lg:block">
+      <div className=" border-4 border-red-600 ">
         {/* Landing Page One */}
-        <div className=" bg-black  grid grid-cols-2   ">
+        {/* <div className=" bg-black  grid grid-cols-2   ">
           <div className="  my-20 relative left-14">
             <div className="w-full h-3/5 text-[#61ABEB] text-8xl font-semibold font-inter  ">
               Building security for tomorrow
@@ -946,16 +965,11 @@ function Landing() {
               animationData={home}
               className="w-4/5 h-4/5   relative left-28 mt-14 ms-3"
             ></Lotiee>
-            {/* <img
-            src="/Gorup.png"
-            alt="logo"
-            className="w-4/5 h-4/5  mt-36 relative left-28 ms-3"
-          /> */}
           </div>
-        </div>
+        </div> */}
 
         {/* Landing Page Two */}
-        <div className="bg-[#001131]  grid grid-flow-col    py-10 gap-10 ">
+        {/* <div className="bg-[#001131]  grid grid-flow-col    py-10 gap-10 ">
           <div className="text-white grid grid-flow-col ">
             <div className="relative left-7">
               <div className=" grid grid-flow-row ">
@@ -1132,20 +1146,123 @@ function Landing() {
               they stay super strong.
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Landing Page 3 */}
         <div className="bg-black  ">
-          <div className=" px-10 text-white text-8xl font-bold font-inter pt-10 ">
+          {/* <div className=" px-10 text-white text-8xl font-bold font-inter pt-10 ">
             You Name It. We Have It
           </div>
           <div className=" px-12 text-white text-2xl font-normal font-inter py-3">
             Each and every service imaginable, we can serve you with master
             efficiency
-          </div>
+          </div> */}
+
           <div className="px-10 py-5 ">
-            <div className="flex flex-row ">
-              <div className="flex flex-col">
+            <div className="flex lg:flex-row flex-col ">
+              <div className="lg:hidden border-2">
+                <div className="flex flex-row">
+                  <div className=" border-4 border-blue-600 ">
+                    <button
+                      onClick={scrollLeft}
+                      className="font-bold text-white text-3xl py-5 xs:text-4xl sm:text-6xl "
+                    >
+                      {"<"}{" "}
+                    </button>
+                  </div>
+
+                  <div
+                    id="slider"
+                    className="snap-x flex snap-mandatory overflow-scroll   scroll-smooth scrollbar-hide   "
+                  >
+                    <div className="snap-start w-fit">
+                      <button
+                        className={`w-full h-24 px-7 text-center text-white text-xl font-bold font-inter border-2  xs:px-20 sm:h-28 md:text-3xl md:h-28 ${
+                          activeTab === "tab1" ? "bg-blue-500 text-black" : ""
+                        }`}
+                        onClick={() => handleTabClick("tab1")}
+                      >
+                        Infrastructure
+                      </button>
+                    </div>
+                    <div className="snap-start w-fit">
+                      <button
+                        className={`w-full h-24 px-7 text-center text-white text-xl font-bold font-inter border-2  xs:px-20 sm:h-28 md:text-3xl md:h-28 ${
+                          activeTab === "tab2" ? "bg-blue-500 text-black" : ""
+                        }`}
+                        onClick={() => handleTabClick("tab2")}
+                      >
+                        Audit
+                      </button>
+                    </div>
+
+                    <div className="snap-start w-fit">
+                      <button
+                        className={`w-full h-24 px-7 text-center text-white text-xl font-bold font-inter border-2 whitespace-nowrap  xs:px-20 sm:h-28 md:text-3xl md:h-28 ${
+                          activeTab === "tab3" ? "bg-blue-500 text-black" : ""
+                        }`}
+                        onClick={() => handleTabClick("tab3")}
+                      >
+                        Cloud Services
+                      </button>
+                    </div>
+                    <div className="snap-start w-fit">
+                      <button
+                        className={`w-full h-24 px-7 text-center text-white text-xl font-bold font-inter border-2  xs:px-20 sm:h-28 md:text-3xl md:h-28 ${
+                          activeTab === "tab4" ? "bg-blue-500 text-black" : ""
+                        }`}
+                        onClick={() => handleTabClick("tab4")}
+                      >
+                        SEO
+                      </button>
+                    </div>
+
+                    <div className="snap-start w-fit">
+                      <button
+                        className={`w-full h-24 px-7 text-center text-white text-xl font-bold font-inter border-2  xs:px-20 sm:h-28 md:text-3xl md:h-28 ${
+                          activeTab === "tab5" ? "bg-blue-500 text-black" : ""
+                        }`}
+                        onClick={() => handleTabClick("tab5")}
+                      >
+                        DevOps
+                      </button>
+                    </div>
+
+                    <div className="snap-start w-fit">
+                      <button
+                        className={`w-full h-24 px-7 text-center text-white text-xl font-bold font-inter border-2  xs:px-20 sm:h-28 md:text-3xl md:h-28 ${
+                          activeTab === "tab6" ? "bg-blue-500 text-black" : ""
+                        }`}
+                        onClick={() => handleTabClick("tab6")}
+                      >
+                        Developemnt
+                      </button>
+                    </div>
+
+                    <div className="snap-start w-fit">
+                      <button
+                        className={`w-full h-24 px-7 text-center text-white text-xl font-bold font-inter border-2  xs:px-20 sm:h-28 md:text-3xl md:h-28 ${
+                          activeTab === "tab7" ? "bg-blue-500 text-black" : ""
+                        }`}
+                        onClick={() => handleTabClick("tab7")}
+                      >
+                        Hosting
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className=" border-4 border-blue-600">
+                    <button
+                      onClick={scrollRight}
+                      className="font-bold text-white text-3xl py-5 xs:text-4xl sm:text-6xl "
+                    >
+                      {">"}{" "}
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" hidden lg:flex lg:flex-col">
                 <button
                   className={`py-8 px-10 border text-2xl text-white w-Full ${
                     activeTab === "tab1" ? "bg-blue-500 text-white" : ""
@@ -1203,10 +1320,11 @@ function Landing() {
                   Hosting
                 </button>
               </div>
-              <div className=" bg-[#001131]   border-8 px-10 py-7 h-[42.6rem]">
+
+              <div className=" bg-[#001131]   border-8 lg:px-10 px-0 py-7 h-full lg:h-[42.6rem]">
                 {activeTab === "tab1" && (
                   <div className=" h-fit ">
-                    <div className=" text-white text-sm font-normal font-inter  w-[92%] mb-4">
+                    <div className=" text-white text-sm font-normal font-inter w-full text-center lg:w-[92%] mb-4">
                       Our infrastructure service offerings cut across advisory,
                       design, implementation, monitoring and management and are
                       business-centric. We drive continuous service improvement
@@ -1214,33 +1332,70 @@ function Landing() {
                       improvement plans and introducing service framework to
                       improve IT infrastructure availability.
                     </div>
-                    <div className="grid grid-cols-3 gap-14  h-fit">
-                      <div className="  col-span-2 h-[30rem] ">
-                        <div className=" text-white text-4xl font-bold font-inter my-5">
+                    <div className="lg:grid lg:grid-rows-3 lg:grid-cols-3 gap-14  h-fit">
+                      <div className="  lg:col-span-2 lg:h-[30rem] ">
+                        <div className=" text-white text-3xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-4xl text-center font-bold font-inter lg:my-5 border-2 md:py-4 ">
                           Offerings
                         </div>
                         {/* Slider 1 */}
+                        <div className="flex flex-row border-2 py-5 lg:hidden ">
+                          <div className=" border-4 border-blue-600 ">
+                            <button
+                              onClick={scrollLeft1}
+                              className="font-bold text-white text-3xl py-5  md:text-5xl md:py-32"
+                            >
+                              {"<"}{" "}
+                            </button>
+                          </div>
+                          <div
+                            id="slider1"
+                            className="snap-x flex snap-mandatory overflow-scroll px-5  scroll-smooth scrollbar-hide    "
+                          >
+                            {infra_s1.map((item) => (
+                              <div
+                                key={item.id}
+                                className=" bg-blue-500 text-white snap-start  py-6  sm:px-5 border-4 border-blue-950  "
+                              >
+                                <div className=" h-24  w-28  text-2xl xs:text-4xl md:text-5xl font-bold xs:w-60 sm:w-80 md:w-96 whitespace-normal text-center">
+                                  {item.service}
+                                </div>
+
+                                <div className=" text-white  grid grid-cols-1 xs:grid-cols-2 gap-3 py-4">
+                                  {item.sub_services.map((subService, key) => (
+                                    <div
+                                      key={key}
+                                      className="  bg-[#36A9E1]   rounded-full text-center "
+                                    >
+                                      <div className="text-black text-xs font-bold  xs:text-sm m-1 sm:text-lg sm:h-8 sm:text-center md:text-xl md:h-10">
+                                        {subService}
+                                      </div>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                          <div className=" border-4 border-blue-600">
+                            <button
+                              onClick={scrollRight1}
+                              className="font-bold text-white text-3xl py-5  md:text-5xl md:py-32  "
+                            >
+                              {">"}{" "}
+                            </button>
+                          </div>
+                        </div>
+
                         <div
                           id="slider"
-                          className=" h-[26rem] border px-2 py-2 border-sky-400 overflow-x-hidden overflow-y-auto whitespace-nowrap scroll-smooth "
+                          className=" hidden h-[26rem] border px-2 py-2 border-sky-400 overflow-x-auto overflow-y-hidden  lg:overflow-x-hidden lg:overflow-y-auto  scroll-smooth "
                         >
                           {infra_s1.map((item, key) => (
                             <div
                               key={item.id}
                               className="  grid grid-cols-3 gap-5 px-5 py-7 border-4 border-sky-700  cursor-pointer hover:scale-105 ease-in-out duration-300"
                             >
-                              <div
-                                className="   text-white text-xl text-center font-bold font-inter "
-                                style={{ whiteSpace: "pre-wrap" }}
-                              >
-                                {item.service.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.service.split(" ").length - 1 && " "}
-                                  </React.Fragment>
-                                ))}
-                                {/* {item.service} */}
+                              <div className="   text-white text-xl text-center font-bold font-inter  whitespace-normal">
+                                {item.service}
                               </div>
 
                               <div className=" text-white  col-span-2   ">
@@ -1249,7 +1404,7 @@ function Landing() {
                                     key={key}
                                     className="  bg-[#36A9E1] m-1 float-left rounded-full text-center "
                                   >
-                                    <span className="text-black text-xs font-bold p-1 break-all w-fit">
+                                    <span className="text-black text-xs font-bold p-1 break-all w-fit ">
                                       {subService}
                                     </span>
                                   </div>
@@ -1259,33 +1414,60 @@ function Landing() {
                           ))}
                         </div>
                       </div>
-                      <div className="    h-[30rem] ">
-                        <div className=" text-white text-4xl text-left font-bold font-inter my-5">
+                      <div className="    lg:h-[30rem] ">
+                        <div className=" text-white text-3xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-4xl text-center font-bold font-inter lg:my-5 border-2 py-16 ">
                           Advantages
                         </div>
 
+                        <div className=" ">
+                          <div className=" border-4 border-blue-600 ">
+                            <button
+                              onClick={scrollLeft1}
+                              className="font-bold text-white text-3xl py-5  md:text-5xl md:py-32"
+                            >
+                              {"<"}{" "}
+                            </button>
+                          </div>
+
+                          <div
+                            id="slider1"
+                            className="snap-x flex snap-mandatory overflow-scroll px-5  scroll-smooth scrollbar-hide"
+                          >
+                            {infra_s2.map((item, key) => (
+                              <div
+                                key={item.id}
+                                className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
+                              >
+                                <div className="text-white text-base font-bold whitespace-normal">
+                                  {item.advan}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+
+                          <div className=" border-4 border-blue-600">
+                            <button
+                              onClick={scrollRight1}
+                              className="font-bold text-white text-3xl py-5  md:text-5xl md:py-32  "
+                            >
+                              {">"}{" "}
+                            </button>
+                          </div>
+                        </div>
+
                         {/* Slider-2 */}
+
                         <div
                           id="slider"
-                          className=" h-[26rem] border border-sky-400 overflow-x-hidden overflow-y-auto whitespace-nowrap scroll-smooth scrollbar-hide"
+                          className="hidden lg:block h-[26rem] border border-sky-400 overflow-x-hidden overflow-y-auto whitespace-nowrap scroll-smooth scrollbar-hide"
                         >
                           {infra_s2.map((item, key) => (
                             <div
                               key={item.id}
                               className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
                             >
-                              <div className="text-white text-base font-bold">
-                                {item.advan.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.advan.split(" ").length - 1 && (
-                                      <br />
-                                    )}
-                                  </React.Fragment>
-                                ))}
-
-                                {/* {item.advan} */}
+                              <div className="text-white text-base font-bold whitespace-normal">
+                                {item.advan}
                               </div>
                             </div>
                           ))}
@@ -1294,6 +1476,7 @@ function Landing() {
                     </div>
                   </div>
                 )}
+
                 {activeTab === "tab2" && (
                   <div>
                     <div className=" h-fit ">
@@ -1323,21 +1506,8 @@ function Landing() {
                                 key={item.id}
                                 className="  grid grid-cols-3 gap-5 px-5 py-7 border-4 border-sky-700  cursor-pointer hover:scale-105 ease-in-out duration-300"
                               >
-                                <div
-                                  className="   text-white text-xl text-center font-bold font-inter "
-                                  style={{ whiteSpace: "pre-wrap" }}
-                                >
-                                  {item.service
-                                    .split(" ")
-                                    .map((word, index) => (
-                                      <React.Fragment key={index}>
-                                        {word}
-                                        {index !==
-                                          item.service.split(" ").length - 1 &&
-                                          " "}
-                                      </React.Fragment>
-                                    ))}
-                                  {/* {item.service} */}
+                                <div className="   text-white text-xl text-center font-bold font-inter whitespace-normal ">
+                                  {item.service}
                                 </div>
 
                                 <div className=" text-white  col-span-2   ">
@@ -1371,18 +1541,8 @@ function Landing() {
                                 key={item.id}
                                 className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
                               >
-                                <div className="text-white text-base font-bold">
-                                  {item.advan.split(" ").map((word, index) => (
-                                    <React.Fragment key={index}>
-                                      {word}
-                                      {index !==
-                                        item.advan.split(" ").length - 1 && (
-                                        <br />
-                                      )}
-                                    </React.Fragment>
-                                  ))}
-
-                                  {/* {item.advan} */}
+                                <div className="text-white text-base font-bold  whitespace-normal">
+                                  {item.advan}
                                 </div>
                               </div>
                             ))}
@@ -1419,18 +1579,8 @@ function Landing() {
                               key={item.id}
                               className="  grid grid-cols-3 gap-5 px-5 py-7 border-4 border-sky-700  cursor-pointer hover:scale-105 ease-in-out duration-300"
                             >
-                              <div
-                                className="   text-white text-xl text-center font-bold font-inter "
-                                style={{ whiteSpace: "pre-wrap" }}
-                              >
-                                {item.service.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.service.split(" ").length - 1 && " "}
-                                  </React.Fragment>
-                                ))}
-                                {/* {item.service} */}
+                              <div className="   text-white text-xl text-center font-bold font-inter whitespace-normal ">
+                                {item.service}
                               </div>
 
                               <div className=" text-white  col-span-2   ">
@@ -1464,18 +1614,8 @@ function Landing() {
                               key={item.id}
                               className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
                             >
-                              <div className="text-white text-base font-bold">
-                                {item.advan.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.advan.split(" ").length - 1 && (
-                                      <br />
-                                    )}
-                                  </React.Fragment>
-                                ))}
-
-                                {/* {item.advan} */}
+                              <div className="text-white text-base font-bold whitespace-normal">
+                                {item.advan}
                               </div>
                             </div>
                           ))}
@@ -1512,17 +1652,10 @@ function Landing() {
                               className="  grid grid-cols-3 gap-5 px-5 py-7 border-4 border-sky-700  cursor-pointer hover:scale-105 ease-in-out duration-300"
                             >
                               <div
-                                className="   text-white text-xl text-center font-bold font-inter "
+                                className="   text-white text-xl text-center font-bold font-inter whitespace-normal "
                                 style={{ whiteSpace: "pre-wrap" }}
                               >
-                                {item.service.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.service.split(" ").length - 1 && " "}
-                                  </React.Fragment>
-                                ))}
-                                {/* {item.service} */}
+                                {item.service}
                               </div>
 
                               <div className=" text-white  col-span-2   ">
@@ -1556,18 +1689,8 @@ function Landing() {
                               key={item.id}
                               className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
                             >
-                              <div className="text-white text-base font-bold">
-                                {item.advan.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.advan.split(" ").length - 1 && (
-                                      <br />
-                                    )}
-                                  </React.Fragment>
-                                ))}
-
-                                {/* {item.advan} */}
+                              <div className="text-white text-base font-bold whitespace-normal">
+                                {item.advan}
                               </div>
                             </div>
                           ))}
@@ -1602,18 +1725,8 @@ function Landing() {
                               key={item.id}
                               className="  grid grid-cols-3 gap-5 px-5 py-7 border-4 border-sky-700  cursor-pointer hover:scale-105 ease-in-out duration-300"
                             >
-                              <div
-                                className="   text-white text-xl text-center font-bold font-inter "
-                                style={{ whiteSpace: "pre-wrap" }}
-                              >
-                                {item.service.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.service.split(" ").length - 1 && " "}
-                                  </React.Fragment>
-                                ))}
-                                {/* {item.service} */}
+                              <div className="   text-white text-xl text-center font-bold font-inter  whitespace-normal">
+                                {item.service}
                               </div>
 
                               <div className=" text-white  col-span-2   ">
@@ -1647,18 +1760,8 @@ function Landing() {
                               key={item.id}
                               className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
                             >
-                              <div className="text-white text-base font-bold">
-                                {item.advan.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.advan.split(" ").length - 1 && (
-                                      <br />
-                                    )}
-                                  </React.Fragment>
-                                ))}
-
-                                {/* {item.advan} */}
+                              <div className="text-white text-base font-bold whitespace-normal">
+                                {item.advan}
                               </div>
                             </div>
                           ))}
@@ -1696,18 +1799,8 @@ function Landing() {
                               key={item.id}
                               className="  grid grid-cols-3 gap-5 px-5 py-7 border-4 border-sky-700  cursor-pointer hover:scale-105 ease-in-out duration-300"
                             >
-                              <div
-                                className="   text-white text-xl text-center font-bold font-inter "
-                                style={{ whiteSpace: "pre-wrap" }}
-                              >
-                                {item.service.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.service.split(" ").length - 1 && " "}
-                                  </React.Fragment>
-                                ))}
-                                {/* {item.service} */}
+                              <div className="   text-white text-xl text-center font-bold font-inter whitespace-normal ">
+                                {item.service}
                               </div>
 
                               <div className=" text-white  col-span-2   ">
@@ -1741,18 +1834,8 @@ function Landing() {
                               key={item.id}
                               className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
                             >
-                              <div className="text-white text-base font-bold">
-                                {item.advan.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.advan.split(" ").length - 1 && (
-                                      <br />
-                                    )}
-                                  </React.Fragment>
-                                ))}
-
-                                {/* {item.advan} */}
+                              <div className="text-white text-base font-bold  whitespace-normal">
+                                {item.advan}
                               </div>
                             </div>
                           ))}
@@ -1787,18 +1870,8 @@ function Landing() {
                               key={item.id}
                               className="  grid grid-cols-3 gap-5 px-5 py-7 border-4 border-sky-700  cursor-pointer hover:scale-105 ease-in-out duration-300"
                             >
-                              <div
-                                className="   text-white text-xl text-center font-bold font-inter "
-                                style={{ whiteSpace: "pre-wrap" }}
-                              >
-                                {item.service.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.service.split(" ").length - 1 && " "}
-                                  </React.Fragment>
-                                ))}
-                                {/* {item.service} */}
+                              <div className="   text-white text-xl text-center font-bold font-inter whitespace-normal">
+                                {item.service}
                               </div>
 
                               <div className=" text-white  col-span-2   ">
@@ -1832,18 +1905,8 @@ function Landing() {
                               key={item.id}
                               className=" cursor-pointer p-7 border-8 border-sky-400 text-center  hover:scale-105 ease-in-out duration-300 "
                             >
-                              <div className="text-white text-base font-bold">
-                                {item.advan.split(" ").map((word, index) => (
-                                  <React.Fragment key={index}>
-                                    {word}
-                                    {index !==
-                                      item.advan.split(" ").length - 1 && (
-                                      <br />
-                                    )}
-                                  </React.Fragment>
-                                ))}
-
-                                {/* {item.advan} */}
+                              <div className="text-white text-base font-bold whitespace-normal">
+                                {item.advan}
                               </div>
                             </div>
                           ))}
@@ -1858,11 +1921,11 @@ function Landing() {
         </div>
 
         {/* Landing Page 4 */}
-        <div className="bg-[#001131] grid grid-cols-2 ">
+        {/* <div className="bg-[#001131] grid grid-cols-2 ">
           <div className=" text-center items-center justify-center ">
             <div className=" grid grid-flow-col mt-20  w-3/4 mx-auto gap-28">
               <img
-                className="w-24 h-8 my-auto mix-blend-multiply "
+                className="w-24 h-8 my-auto  "
                 src="/Layer_0_12_.png"
                 alt="image not found"
               />
@@ -1916,12 +1979,6 @@ function Landing() {
               <button className="text-white w-96 h-10 text-center  text-4xl font-bold font-inter pt-6">
                 Learn More
               </button>
-              {/* <div className="w-96 h-20 bg-sky-700  my-5   items-center  mx-auto mt-10 pt-4">
-              
-            </div> */}
-              {/* <div className="w-96 h-4 pt-7 text-center text-white text-4xl font-extrabold font-inter  items-center justify-center">
-              
-            </div> */}
             </div>
           </div>
           <div className=" py-16">
@@ -1933,11 +1990,11 @@ function Landing() {
               topping charts in their field
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Landing Page 5 */}
 
-        <div className="bg-black">
+        {/* <div className="bg-black">
           <div className="w-full h-1/2 text-center text-white text-8xl font-bold font-inter py-16 ">
             Meet the Roots of our company.
           </div>
@@ -1961,7 +2018,7 @@ function Landing() {
               </button>
             </div>
           </div>
-          {/* Click On Tabs */}
+         
           <div className="text-white ">
             <div className="mt-4">
               {activeTab === "tab1" && (
@@ -2012,10 +2069,10 @@ function Landing() {
               )}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Landing Page 6 */}
-        <div className=" bg-[rgb(0,17,49)] py-10">
+        {/* <div className=" bg-[rgb(0,17,49)] py-10">
           <div className=" grid grid-cols-2  ">
             <div className=" px-10">
               <div className="w-3/4 h-3/4 text-white text-8xl font-bold font-inter  pb-3">
@@ -2027,7 +2084,7 @@ function Landing() {
               </div>
             </div>
             <div>
-              {/* First */}
+             
               <div className=" border-2 bg-[#000000] grid grid-flow-col w-4/5 px-5 mt-4 ">
                 <div className="w-5/6  text-white text-3xl font-bold font-inter py-3  ">
                   How to implement Redis and Celery to automate .....
@@ -2045,7 +2102,7 @@ function Landing() {
                   </div>
                 </div>
               </div>
-              {/* Second */}
+              
               <div>
                 <div className=" border-2 bg-[#000000] grid grid-flow-col w-4/5 px-5 py-3 my-4">
                   <div className="w-5/6  text-white text-3xl font-bold font-inter  ">
@@ -2064,7 +2121,7 @@ function Landing() {
                     </div>
                   </div>
                 </div>
-                {/* Third */}
+               
                 <div className=" border-2 bg-[#000000] grid grid-flow-col w-4/5 px-5 py-3">
                   <div className="w-5/6  text-white text-3xl font-bold font-inter  ">
                     How to implement Redis and Celery to automate .....
@@ -2090,11 +2147,11 @@ function Landing() {
               View All Blogs
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Landing Page 7 */}
 
-        <div className=" grid grid-cols-2 bg-[#000000] py-20">
+        {/* <div className=" grid grid-cols-2 bg-[#000000] py-20">
           <div className="w-full h-full text-white text-8xl font-bold font-inter relative left-10 ">
             We always like a cup of coffee. Let’s have one :)
           </div>
@@ -2184,10 +2241,10 @@ function Landing() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Footer Page */}
-        <div className="bg-black px-14">
+        {/* <div className="bg-black px-14">
           <div className="bg-black grid grid-flow-col py-2">
             <img src="/group.png" alt="logo not found " className="py-2" />
             <ul className=" text-white grid grid-flow-col  relative right-40 items-center">
@@ -2208,7 +2265,7 @@ function Landing() {
               Copyright © 2023 Root Technologies - All Rights Reserved.{" "}
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

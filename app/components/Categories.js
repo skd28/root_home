@@ -11,7 +11,7 @@ function Categories({ categories }) {
   },[]);
 
   return (
-    <div className=" flex bg-black  px-auto py-14  text-center justify-center">
+    <div className=" flex bg-black  px-auto py-14  text-center justify-center ">
       {categories?.data?.map((category) => (
         <div key={category.id}>
           <Category cat={category} />
