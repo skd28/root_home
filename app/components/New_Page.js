@@ -70,13 +70,13 @@ function New_Page() {
       <div
         className=" h-screen lg:bg-blue-800 overflow-hidden bg-cover  "
         style={{
-          backgroundImage: "url(/background.jpg)",
+          backgroundImage: "url(/new_background.jpg)",
         }}
       >
         <div className="py-3 px-4 lg:mx-20 lg:my-10">
           <img
             src="/main_logo.jpg"
-            className="w-1/5 h-1/5 lg:w-[4rem] lg:h-1/6 "
+            className="w-1/4 h-1/4 lg:w-[7rem] lg:h-1/6 "
             alt="..."
           />
         </div>
@@ -104,7 +104,7 @@ function New_Page() {
                  lg:text-4xl lg:py-0 lg:text-right  lg:h-20  lg:whitespace-nowrap">
                   {data[iterator].heading}
                 </h1>
-                <p className="text-base text-white  text-justify px-4   sm:text-xl md:text-2xl lg:text-xs">
+                <p className="text-base text-white  text-center px-4   sm:text-xl md:text-2xl lg:text-xs">
                   {data[iterator].content}
                 </p>
               </div>
