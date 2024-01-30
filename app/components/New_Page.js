@@ -101,7 +101,7 @@ function New_Page() {
 
             <div className=" snap-x flex snap-mandatory overflow-scroll w-full xs:px-10 sm:px-16  scroll-smooth scrollbar-hide lg:px-0">
               <div className="snap-start  h-5/6 ">
-                <h1 className=" text-center text-3xl py-3 text-[#000000] w-full xs:text-3xl sm:text-4xl md:text-7xl
+                <h1 className=" text-center text-3xl py-3 text-[#80D5FF] w-full xs:text-3xl sm:text-4xl md:text-7xl
                  lg:text-3xl lg:py-0 lg:text-right  lg:h-20  lg:whitespace-nowrap">
                   {data[iterator].heading}
                 </h1>
