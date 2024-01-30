@@ -32,7 +32,7 @@ function New_Page() {
     },
     {
       id: 5,
-      heading: "DeOps",
+      heading: "DevOps",
       content:
         "Supercharge innovation with DevOps as a Service. Streamline software development, foster collaboration, and achieve business goals effortlessly in the dynamic tech landscape. ",
     },
