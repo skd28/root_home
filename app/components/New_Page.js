@@ -74,6 +74,7 @@ function New_Page() {
         }}
       >
         <div className="py-3 px-4 lg:mx-20 lg:my-10">
+          {/* Logo Image */}
           <img
             src="/main_logo.jpg"
             className="w-1/4 h-1/4 lg:w-[7rem] lg:h-1/6 "
