@@ -82,14 +82,14 @@ function New_Page() {
           />
         </div>
 
-        <div className="lg:grid lg:grid-cols-2 lg:mt-16 lg:gap-20">
-          <div className="mx-auto   ">
-            <h1 className="font-inter text-3xl font-bold my-4 text-white text-center xs:px-2 xs:text-4xl xs:py-10 sm:text-6xl md:text-7xl lg:text-5xl lg:py-0">
+        <div className="grid grid-flow-row lg:grid-flow-col lg:mt-16 lg:gap-20">
+          <div className="mx-auto  lg:w-1/2  ">
+            <h1 className="font-inter text-3xl font-bold my-4 text-white text-center xs:text-4xl xs:py-10 sm:text-6xl md:text-7xl lg:text-6xl  lg:py-0">
               Welcome to Root Technologies.
             </h1>
           </div>
 
-          <div className="flex flex-row xs:px-8 px-3 lg:px-60  mx-auto lg:w-3/5">
+          {/* <div className="flex flex-row xs:px-8 px-3 lg:px-60  mx-auto lg:w-3/5">
             <div className="">
               <button
                 className="text-white text-4xl py-40  xs:py-32 xs:text-5xl sm:text-6xl lg:text-3xl lg:py-28"
@@ -102,10 +102,10 @@ function New_Page() {
             <div className=" snap-x flex snap-mandatory overflow-scroll w-full xs:px-10 sm:px-16  scroll-smooth scrollbar-hide lg:px-0">
               <div className="snap-start  h-5/6 ">
                 <h1 className=" text-center text-3xl py-3 text-[#80D5FF] w-full xs:text-3xl sm:text-4xl md:text-7xl
-                 lg:text-3xl lg:py-0 lg:text-right  lg:h-20  lg:whitespace-nowrap">
+                 lg:text-3xl lg:py-0 lg:text-right   lg:h-20  lg:whitespace-nowrap">
                   {data[iterator].heading}
                 </h1>
-                <p className="text-base text-white  text-center px-4   sm:text-xl md:text-2xl lg:text-xs">
+                <p className="text-base text-white  text-center px-4  sm:text-xl md:text-2xl lg:text-xs">
                   {data[iterator].content}
                 </p>
               </div>
@@ -118,7 +118,22 @@ function New_Page() {
                 {">"}
               </button>
             </div>
+          </div> */}
+          
+         <div className="grid grid-flow-row mx-6 ">
+          <div class="lg:w-[404px] lg:h-[27px]  w-[100%] text-white text-lg font-normal font-inter text-center">We provide the following services</div>
+          <div class="lg:w-[650px] lg:h-[200px] w-[100%] p-[5%] grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 justify-start items-start lg:gap-10 gap-3 text-left">
+            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline ">Infrastructure</div>
+            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline "> Audit</div>
+            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline ">Hosting</div>
+            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline whitespace-nowrap">Cloud Services</div>
+            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline">SEO</div>
+            <div class="text-center text-sky-300 lg:text-2xl text-base  xs:text-xl font-bold font-inter underline">DevOps</div>
+            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline whitespace-nowrap"> Web Development</div>
           </div>
+          </div>
+          
+
         </div>
 
         <p className="text-xs leading-5 text-white  text-center py-14 xs:py-20 lg:py-24 px-20">

@@ -17,9 +17,10 @@ module.exports = {
       },
       screens: {
         xs: "400px",
-      
+
         ...defaultTheme.screens,
       },
+      
     },
   },
   plugins: [
@@ -40,6 +41,6 @@ module.exports = {
 
       addUtilities(newUtilities, ['responsive', 'hover']);
     },
-    
+
   ],
 }
