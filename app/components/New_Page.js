@@ -5,24 +5,12 @@ import React, { useState } from "react";
 
 function New_Page() {
 
-  const [iterator, setIterator] = useState(0);
-
-  const moveForward = () => {
-    if (iterator < data.length - 1) {
-      setIterator((prevIterator) => prevIterator + 1);
-    }
-  };
-
-  const moveBackward = () => {
-    if (iterator > 0) {
-      setIterator((prevIterator) => prevIterator - 1);
-    }
-  };
+ 
 
   return (
     <>
       <div
-        className=" lg:bg-blue-800 overflow-hidden bg-cover  "
+        className=" lg:bg-blue-800 overflow-hidden bg-cover h-screen "
         style={{
           backgroundImage: "url(/new_background.jpg)",
         }}
