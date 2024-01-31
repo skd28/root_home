@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 // Landing page update on this page
 
+
 function New_Page() {
 
 
@@ -30,6 +31,7 @@ function New_Page() {
               Welcome to Root Technologies Pvt Ltd.
             </h1>
           </div>
+          {/* HEading update */}
 
           {/* <div className="flex flex-row xs:px-8 px-3 lg:px-60  mx-auto lg:w-3/5">
             <div className="">
