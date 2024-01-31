@@ -4,52 +4,6 @@ import React, { useState } from "react";
 // Landing page update on this page
 
 function New_Page() {
-  // for pushing new ref
-  const data = [
-    {
-      id: 1,
-      heading: "Infrastructure",
-      content:
-        " We provide end-to-end infrastructure services, focusing on advisory, design, implementation, monitoring, and management for business-centric solutions. Continuous improvement is our commitment. ",
-    },
-    {
-      id: 2,
-      heading: "Audit",
-      content:
-        "Opt for our IT Audit services for unbiased reviews of infrastructure, controls, and compliance, with expert suggestions for security enhancements",
-    },
-    {
-      id: 3,
-      heading: "Cloud Services",
-      content:
-        "Explore comprehensive cloud solutions for businesses of all sizes. From advice to secure implementation, we expertly manage diverse platforms, including Azure and AWS. ",
-    },
-    {
-      id: 4,
-      heading: "SEO",
-      content:
-        "Crafting impactful websites, we're India's premier web development agency. From SEO-focused to mobile-friendly, our designs marry strategy, creativity, and user trends for real-world impact",
-    },
-    {
-      id: 5,
-      heading: "DevOps",
-      content:
-        "Supercharge innovation with DevOps as a Service. Streamline software development, foster collaboration, and achieve business goals effortlessly in the dynamic tech landscape. ",
-    },
-    {
-      id: 6,
-      heading: "Web Development",
-      content:
-        " India's top web agency crafts impactful websites. From SEO to mobile adaptability, our designs blend brand strategy, creativity, and trends for real-world impact. ",
-    },
-    {
-      id: 7,
-      heading: "Hosting",
-      content: "",
-      content:
-        " Unlock strategic success with Root's Managed Hosting. We handle hosting, ensuring reliability and budget-friendly support for your competitive edge.",
-    },
-  ];
 
   const [iterator, setIterator] = useState(0);
 
@@ -68,7 +22,7 @@ function New_Page() {
   return (
     <>
       <div
-        className=" lg:bg-blue-800 overflow-hidden bg-cover h-screen "
+        className=" lg:bg-blue-800 overflow-hidden bg-cover  "
         style={{
           backgroundImage: "url(/new_background.jpg)",
         }}
@@ -173,8 +127,10 @@ function New_Page() {
               </div>
             </div>
           </div>
+        </div>
 
-
+        <div className=" text-white text-xl font-inter text-center w-1/2 mx-auto py-7">
+          Prepare for Lift-off: Our Website Lands Soon
         </div>
 
         <p className="text-xs leading-5 text-white  text-center py-20 ">
