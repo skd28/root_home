@@ -27,7 +27,7 @@ function New_Page() {
         <div className="grid grid-flow-row lg:grid-flow-col lg:mt-8 lg:gap-20">
           <div className="mx-auto  lg:w-1/2 ">
             <h1 className="font-inter text-xl font-bold my-4 xs:my-2 text-white text-center  xs:text-3xl sm:text-4xl md:text-4xl lg:text-6xl  lg:py-0">
-              Welcome to Root Technologies.
+              Welcome to Root Technologies Pvt Ltd.
             </h1>
           </div>
 
