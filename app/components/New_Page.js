@@ -6,7 +6,7 @@ import React, { useState } from "react";
 function New_Page() {
 
  
-
+// New Upadte on for screen size 
   return (
     <>
       <div
