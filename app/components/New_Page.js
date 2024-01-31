@@ -5,8 +5,8 @@ import React, { useState } from "react";
 
 function New_Page() {
 
- 
-// New Upadte on for screen size 
+
+  // New Upadte on for screen size 
   return (
     <>
       <div
@@ -19,7 +19,7 @@ function New_Page() {
           {/* Logo Image */}
           <img
             src="/main_logo.jpg"
-            className="w-1/5 h-1/5 md:w-1/6 md:h-1/6 lg:w-[7rem] lg:h-1/6 "
+            className="w-1/3 h-1/3 md:w-1/6 md:h-1/6 lg:w-[7rem] lg:h-1/6 "
             alt="..."
           />
         </div>
@@ -73,9 +73,10 @@ function New_Page() {
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Hosting</span>
+                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Audit</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
-                  (Dedicated, Private, Public, Hybrid)
+                  (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
+
                 </span>
               </div>
 
@@ -108,16 +109,16 @@ function New_Page() {
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Audit</span>
+                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Hosting </span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter">
-                  (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
+                  (Dedicated, Private, Public, Hybrid)
                 </span>
               </div>
             </div>
           </div>
         </div>
 
-        <div className=" text-white text-xl font-inter text-center w-3/4 mx-auto py-7">
+        <div className=" text-white text-xl lg:text-3xl font-inter text-center w-3/4 mx-auto py-4 lg:my-1 0">
           Prepare for Lift-off: Our Website Lands Soon
         </div>
 
@@ -130,3 +131,22 @@ function New_Page() {
 }
 
 export default New_Page;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
