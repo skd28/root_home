@@ -10,7 +10,7 @@ function New_Page() {
   return (
     <>
       <div
-        className=" lg:bg-blue-800 overflow-hidden bg-cover h-screen "
+        className=" lg:bg-blue-800 overflow-hidden bg-cover h-screen  "
         style={{
           backgroundImage: "url(/new_background.jpg)",
         }}
@@ -64,7 +64,7 @@ function New_Page() {
 
           <div className="grid grid-flow-row mx-6  md:mx-auto">
             <div class="lg:w-[76%] lg:h-[27px]  w-[80%] text-white text-base font-normal font-inter xs:text-center lg:text-left md:text-left py-6 lg:py-10  md:mx-0 mx-auto lg:mx-0 ">We provide the following services</div>
-            <div className="overflow-y-auto h-60 lg:h-fit md:w-3/4 md:mx-auto sm:w-3/5 sm:mx-auto xs:w-1/2 mx-auto w-4/5">
+            <div className="overflow-y-auto xs:h-60 h-40 lg:h-60 md:w-3/4 md:mx-auto sm:w-3/5 sm:mx-auto xs:w-1/2 mx-auto w-4/5">
               <div className="pb-3">
                 <span className="text-white text-base xs:text-lg lg:text-xl font-bold font-inter" >Infrastructure</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
@@ -117,11 +117,11 @@ function New_Page() {
           </div>
         </div>
 
-        <div className=" text-white text-xl font-inter text-center w-1/2 mx-auto py-7">
+        <div className=" text-white text-xl font-inter text-center w-3/4 mx-auto py-7">
           Prepare for Lift-off: Our Website Lands Soon
         </div>
 
-        <p className="text-xs leading-5 text-white  text-center py-20 ">
+        <p className="text-xs leading-5 text-white  text-center py-10">
           Copyright © 2023 Root Technologies - All Rights Reserved.{" "}
         </p>
       </div>
