@@ -125,7 +125,7 @@ function New_Page() {
         </div>
 
         <p className="text-xs leading-5 text-white  text-center py-10">
-          Copyright © 2023 Root Technologies - All Rights Reserved.{" "}
+          Copyright © 2023 Root Technologies Pvt Ltd - All Rights Reserved.{" "}
         </p>
       </div>
     </>
