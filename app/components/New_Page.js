@@ -68,7 +68,7 @@ function New_Page() {
   return (
     <>
       <div
-        className=" h-screen lg:bg-blue-800 overflow-hidden bg-cover  "
+        className=" lg:bg-blue-800 overflow-hidden bg-cover  "
         style={{
           backgroundImage: "url(/new_background.jpg)",
         }}
@@ -77,14 +77,14 @@ function New_Page() {
           {/* Logo Image */}
           <img
             src="/main_logo.jpg"
-            className="w-1/4 h-1/4 lg:w-[7rem] lg:h-1/6 "
+            className="w-1/5 h-1/5 md:w-1/6 md:h-1/6 lg:w-[7rem] lg:h-1/6 "
             alt="..."
           />
         </div>
 
-        <div className="grid grid-flow-row lg:grid-flow-col lg:mt-16 lg:gap-20">
-          <div className="mx-auto  lg:w-1/2  ">
-            <h1 className="font-inter text-3xl font-bold my-4 text-white text-center xs:text-4xl xs:py-10 sm:text-6xl md:text-7xl lg:text-6xl  lg:py-0">
+        <div className="grid grid-flow-row lg:grid-flow-col lg:mt-8 lg:gap-20">
+          <div className="mx-auto  lg:w-1/2 ">
+            <h1 className="font-inter text-xl font-bold my-4 xs:my-2 text-white text-center  xs:text-3xl sm:text-4xl md:text-4xl lg:text-6xl  lg:py-0">
               Welcome to Root Technologies.
             </h1>
           </div>
@@ -119,20 +119,61 @@ function New_Page() {
               </button>
             </div>
           </div> */}
-          
-         <div className="grid grid-flow-row mx-6 ">
-          <div class="lg:w-[404px] lg:h-[27px]  w-[100%] text-white text-lg font-normal font-inter text-center">We provide the following services</div>
-          <div class="lg:w-[650px] lg:h-[200px] w-[100%] p-[5%] grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 justify-start items-start lg:gap-10 gap-3 text-left">
-            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline ">Infrastructure</div>
-            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline "> Audit</div>
-            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline ">Hosting</div>
-            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline whitespace-nowrap">Cloud Services</div>
-            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline">SEO</div>
-            <div class="text-center text-sky-300 lg:text-2xl text-base  xs:text-xl font-bold font-inter underline">DevOps</div>
-            <div class="text-center text-sky-300 lg:text-2xl text-base xs:text-xl font-bold font-inter underline whitespace-nowrap"> Web Development</div>
+
+          <div className="grid grid-flow-row mx-6  md:mx-auto">
+            <div class="lg:w-[404px] lg:h-[27px]  w-[80%] text-white text-base font-normal font-inter xs:text-center lg:text-left py-6 lg:py-10 mx-auto">We provide the following services</div>
+            <div className="overflow-y-auto h-60 lg:h-fit md:w-3/4 md:mx-auto sm:w-3/5 sm:mx-auto xs:w-1/2 mx-auto w-4/5">
+              <div className="pb-3">
+                <span className="text-white text-base xs:text-lg lg:text-xl font-bold font-inter" >Infrastructure</span>
+                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
+                  (Network Services, RMM, Email, Security, Backup/DRAAS)
+                </span>
+              </div>
+
+              <div className="pb-3">
+                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Hosting</span>
+                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
+                  (Dedicated, Private, Public, Hybrid)
+                </span>
+              </div>
+
+              <div className="pb-3">
+                <span className="text-white text-base xs:text-lg  font-bold lg:text-xl font-inter" >Cloud</span>
+                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
+                  (Consulting, Integration, Migration, Monitoring/Management)
+                </span>
+              </div>
+
+              <div className="pb-3">
+                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >SEO</span>
+                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
+                  (Keyword, Market Research, On/Off Page, Technical, Reports, Local, Strategy, Optimization)
+                </span>
+              </div>
+
+              <div className="pb-3">
+                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >DevOps</span>
+                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
+                  (IaC, Docker, Kubernetes, Monitoring/Logging, Automation, CI/CD, PaaS)
+                </span>
+              </div>
+
+              <div className="pb-3">
+                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Product Engineering</span>
+                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
+                  (CMS, E-commerce, UXI Engineering, Mobile, Web)
+                </span>
+              </div>
+
+              <div className="pb-3">
+                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Audit</span>
+                <span className="text-white text-sm font-normal lg:text-xl font-inter">
+                  (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
+                </span>
+              </div>
+            </div>
           </div>
-          </div>
-          
+
 
         </div>
 

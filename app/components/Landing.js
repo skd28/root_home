@@ -950,7 +950,7 @@ function Landing() {
     <>
       <div className=" border-4 border-red-600 ">
         {/* Landing Page One */}
-        {/* <div className=" bg-black  grid grid-cols-2   ">
+        <div className=" bg-black  grid grid-cols-2   ">
           <div className="  my-20 relative left-14">
             <div className="w-full h-3/5 text-[#61ABEB] text-8xl font-semibold font-inter  ">
               Building security for tomorrow
@@ -966,10 +966,10 @@ function Landing() {
               className="w-4/5 h-4/5   relative left-28 mt-14 ms-3"
             ></Lotiee>
           </div>
-        </div> */}
+        </div>
 
         {/* Landing Page Two */}
-        {/* <div className="bg-[#001131]  grid grid-flow-col    py-10 gap-10 ">
+        <div className="bg-[#001131]  grid grid-flow-col    py-10 gap-10 ">
           <div className="text-white grid grid-flow-col ">
             <div className="relative left-7">
               <div className=" grid grid-flow-row ">
@@ -1146,7 +1146,7 @@ function Landing() {
               they stay super strong.
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* Landing Page 3 */}
         <div className="bg-black  ">
