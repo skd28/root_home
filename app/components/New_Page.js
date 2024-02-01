@@ -37,11 +37,11 @@ function New_Page() {
           
 
           <div className="grid grid-flow-row mx-6  md:mx-auto">
-            <div class="lg:w-[76%] lg:h-[27px]  w-[90%]  text-white text-base font-normal font-inter xs:text-center lg:text-left md:text-left py-6 lg:py-10  md:mx-0 mx-auto lg:mx-0 ">We provide the following services</div>
+            <div class="lg:w-[76%] lg:h-[27px]  w-[90%]  text-white text-lg font-normal font-inter xs:text-center lg:text-left md:text-left py-6 lg:py-10  md:mx-0 mx-auto lg:mx-0 ">We provide the following services</div>
             <div className="   md:mx-auto  sm:mx-auto mx-auto w-full">
               <div className="pb-3">
                 <span className="text-white text-xl font-semibold xs:text-lg lg:text-xl  font-inter h-5" >Infrastructure</span>
-                <span className="text-white text-base font-normal lg:text-xl font-inter px-2 h-3">
+                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2 h-3">
                   (Network Services, RMM, Email, Security, Backup/DRAAS)
                 </span>
               </div>
@@ -115,7 +115,7 @@ function New_Page() {
         </div>
         {/* Footer part content update */}
         <p className="text-xs leading-5 text-white  text-center py-5 lg:py-0">
-          Copyright © 2023 Root Technologies Pvt Ltd - All Rights Reserved.{" "}
+          Copyright © 2023 Root Technologies Pvt Ltd.  All Rights Reserved.{" "}
         </p>
       </div>
     </>
