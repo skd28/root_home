@@ -27,7 +27,7 @@ function New_Page() {
 
         <div className="grid grid-flow-row lg:grid-flow-col lg:mt-8 lg:gap-20">
           <div className="mx-auto  lg:w-1/2 ">
-            <h1 className="font-inter text-xl font-bold my-4 xs:my-2 text-white text-center  xs:text-3xl sm:text-4xl md:text-4xl lg:text-6xl  lg:py-0">
+            <h1 className="font-inter  font-bold  text-white text-center my-4  text-[1.5rem] xs:text-[2rem] lg:text-[3rem] xs:my-2 lg:py-0">
               Welcome to Root Technologies Pvt Ltd.
             </h1>
           </div>
@@ -124,7 +124,7 @@ function New_Page() {
           Prepare for Lift-off: Our Website Lands Soon
         </div>
         {/* Footer part content update */}
-        <p className="text-xs leading-5 text-white  text-center py-10">
+        <p className="text-xs leading-5 text-white  text-center py-10 lg:py-0">
           Copyright © 2023 Root Technologies Pvt Ltd - All Rights Reserved.{" "}
         </p>
       </div>
