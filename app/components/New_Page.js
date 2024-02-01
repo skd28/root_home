@@ -123,7 +123,7 @@ function New_Page() {
         <div className=" text-white text-xl lg:text-3xl font-inter text-center w-3/4 mx-auto py-4 lg:my-1 0">
           Prepare for Lift-off: Our Website Lands Soon
         </div>
-
+        {/* Footer part content update */}
         <p className="text-xs leading-5 text-white  text-center py-10">
           Copyright © 2023 Root Technologies Pvt Ltd - All Rights Reserved.{" "}
         </p>
