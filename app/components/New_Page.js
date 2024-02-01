@@ -16,20 +16,16 @@ function New_Page() {
           backgroundImage: "url(/new_background.jpg)",
         }}
       >
-        <div className=" px-8 py-8 ">
+        <div className=" py-4 mx-auto">
           <div >
             {/* Logo Image */}
             <img
-              src="/main_logo.jpg" className=" w-40 "
+              src="/main_logo.jpg" className=" w-40 mx-auto"
 
               alt="..."
             />
           </div>
-          {/* <div className="float-right">
-            <a href="https://www.linkedin.com/company/roottechnologie/">
-              <img src="/linkedin.svg" alt=".." width={20} height={20} />
-            </a>
-          </div> */}
+       
         </div>
 
         <div className="grid grid-flow-row lg:grid-flow-col lg:mt-6 lg:gap-20 ">
@@ -38,51 +34,20 @@ function New_Page() {
               Welcome to Root Technologies Pvt Ltd.
             </h1>
           </div>
-          {/* HEading update */}
-
-          {/* <div className="flex flex-row xs:px-8 px-3 lg:px-60  mx-auto lg:w-3/5">
-            <div className="">
-              <button
-                className="text-white text-4xl py-40  xs:py-32 xs:text-5xl sm:text-6xl lg:text-3xl lg:py-28"
-                onClick={moveBackward}
-              >
-                {"<"}
-              </button>
-            </div>
-
-            <div className=" snap-x flex snap-mandatory overflow-scroll w-full xs:px-10 sm:px-16  scroll-smooth scrollbar-hide lg:px-0">
-              <div className="snap-start  h-5/6 ">
-                <h1 className=" text-center text-3xl py-3 text-[#80D5FF] w-full xs:text-3xl sm:text-4xl md:text-7xl
-                 lg:text-3xl lg:py-0 lg:text-right   lg:h-20  lg:whitespace-nowrap">
-                  {data[iterator].heading}
-                </h1>
-                <p className="text-base text-white  text-center px-4  sm:text-xl md:text-2xl lg:text-xs">
-                  {data[iterator].content}
-                </p>
-              </div>
-            </div>
-            <div className=" ">
-              <button
-                className="text-white text-4xl py-40  xs:py-32 xs:text-5xl sm:text-6xl lg:text-3xl lg:py-28"
-                onClick={moveForward}
-              >
-                {">"}
-              </button>
-            </div>
-          </div> */}
+          
 
           <div className="grid grid-flow-row mx-6  md:mx-auto">
             <div class="lg:w-[76%] lg:h-[27px]  w-[90%]  text-white text-base font-normal font-inter xs:text-center lg:text-left md:text-left py-6 lg:py-10  md:mx-0 mx-auto lg:mx-0 ">We provide the following services</div>
             <div className="   md:mx-auto  sm:mx-auto mx-auto w-full">
               <div className="pb-3">
-                <span className="text-white text-xl xs:text-lg lg:text-xl  font-inter h-5" >Infrastructure</span>
+                <span className="text-white text-xl font-semibold xs:text-lg lg:text-xl  font-inter h-5" >Infrastructure</span>
                 <span className="text-white text-base font-normal lg:text-xl font-inter px-2 h-3">
                   (Network Services, RMM, Email, Security, Backup/DRAAS)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >Audit</span>
+                <span className="text-white text-xl  xs:text-lg font-semibold lg:text-xl font-inter" >Audit</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
 
@@ -90,35 +55,35 @@ function New_Page() {
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >Cloud</span>
+                <span className="text-white text-xl  xs:text-lg font-semibold lg:text-xl font-inter" >Cloud</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (Consulting, Integration, Migration, Monitoring/Management)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >SEO</span>
+                <span className="text-white text-xl  xs:text-lg font-semibold lg:text-xl font-inter" >SEO</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (Keyword, Market Research, On/Off Page, Technical, Reports, Local, Strategy, Optimization)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white textxl xs:text-lg  lg:text-xl font-inter" >DevOps</span>
+                <span className="text-white textxl text-xl font-semibold font-inter" >DevOps</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (IaC, Docker, Kubernetes, Monitoring/Logging, Automation, CI/CD, PaaS)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-xl xs:text-lg  lg:text-xl font-inter" >Product Engineering</span>
+                <span className="text-white text-xl xs:text-lg font-semibold lg:text-xl font-inter" >Product Engineering</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (CMS, E-commerce, UXI Engineering, Mobile, Web)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >Hosting </span>
+                <span className="text-white text-xl  xs:text-lg font-semibold lg:text-xl font-inter" >Hosting </span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter">
                   (Dedicated, Private, Public, Hybrid)
                 </span>
