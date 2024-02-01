@@ -16,7 +16,7 @@ function New_Page() {
           backgroundImage: "url(/new_background.jpg)",
         }}
       >
-        <div className="py-3 px-4 lg:mx-20 lg:my-10">
+        <div className="py-3 px-4 lg:mx-20 lg:my-8">
           {/* Logo Image */}
           <img
             src="/main_logo.jpg"
@@ -25,7 +25,7 @@ function New_Page() {
           />
         </div>
 
-        <div className="grid grid-flow-row lg:grid-flow-col lg:mt-8 lg:gap-20">
+        <div className="grid grid-flow-row lg:grid-flow-col lg:mt-6 lg:gap-20 ">
           <div className="mx-auto  lg:w-1/2 ">
             <h1 className="font-inter  font-bold  text-white text-center my-4  text-[1.5rem] xs:text-[2rem] lg:text-[3rem] xs:my-2 lg:py-0">
               Welcome to Root Technologies Pvt Ltd.
@@ -120,11 +120,11 @@ function New_Page() {
           </div>
         </div>
 
-        <div className=" text-white text-xl lg:text-3xl font-inter text-center w-3/4 mx-auto py-4 lg:my-1 0">
+        <div className=" text-white text-xl lg:text-3xl font-inter text-center w-3/4 mx-auto  py-2 xs:py-4 lg:my-1 0">
           Prepare for Lift-off: Our Website Lands Soon
         </div>
         {/* Footer part content update */}
-        <p className="text-xs leading-5 text-white  text-center py-10 lg:py-0">
+        <p className="text-xs leading-5 text-white  text-center py-5 lg:py-0">
           Copyright © 2023 Root Technologies Pvt Ltd - All Rights Reserved.{" "}
         </p>
       </div>
