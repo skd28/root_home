@@ -11,18 +11,25 @@ function New_Page() {
   return (
     <>
       <div
-        className=" lg:bg-blue-800 overflow-hidden bg-cover h-screen  "
+        className=" lg:bg-blue-800 overflow-hidden bg-cover lg:h-screen "
         style={{
           backgroundImage: "url(/new_background.jpg)",
         }}
       >
-        <div className="py-3 px-4 lg:mx-20 lg:my-8">
-          {/* Logo Image */}
-          <img
-            src="/main_logo.jpg"
-            className="w-1/3 h-1/3 md:w-1/6 md:h-1/6 lg:w-[7rem] lg:h-1/6 "
-            alt="..."
-          />
+        <div className=" px-8 py-8 ">
+          <div >
+            {/* Logo Image */}
+            <img
+              src="/main_logo.jpg" className=" w-40 "
+
+              alt="..."
+            />
+          </div>
+          {/* <div className="float-right">
+            <a href="https://www.linkedin.com/company/roottechnologie/">
+              <img src="/linkedin.svg" alt=".." width={20} height={20} />
+            </a>
+          </div> */}
         </div>
 
         <div className="grid grid-flow-row lg:grid-flow-col lg:mt-6 lg:gap-20 ">
@@ -65,17 +72,17 @@ function New_Page() {
           </div> */}
 
           <div className="grid grid-flow-row mx-6  md:mx-auto">
-            <div class="lg:w-[76%] lg:h-[27px]  w-[80%] text-white text-base font-normal font-inter xs:text-center lg:text-left md:text-left py-6 lg:py-10  md:mx-0 mx-auto lg:mx-0 ">We provide the following services</div>
-            <div className="overflow-y-auto xs:h-60 h-40 lg:h-60 md:w-3/4 md:mx-auto sm:w-3/5 sm:mx-auto xs:w-1/2 mx-auto w-4/5">
+            <div class="lg:w-[76%] lg:h-[27px]  w-[90%]  text-white text-base font-normal font-inter xs:text-center lg:text-left md:text-left py-6 lg:py-10  md:mx-0 mx-auto lg:mx-0 ">We provide the following services</div>
+            <div className="   md:mx-auto  sm:mx-auto mx-auto w-full">
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg lg:text-xl font-bold font-inter" >Infrastructure</span>
-                <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
+                <span className="text-white text-xl xs:text-lg lg:text-xl  font-inter h-5" >Infrastructure</span>
+                <span className="text-white text-base font-normal lg:text-xl font-inter px-2 h-3">
                   (Network Services, RMM, Email, Security, Backup/DRAAS)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Audit</span>
+                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >Audit</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
 
@@ -83,35 +90,35 @@ function New_Page() {
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg  font-bold lg:text-xl font-inter" >Cloud</span>
+                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >Cloud</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (Consulting, Integration, Migration, Monitoring/Management)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >SEO</span>
+                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >SEO</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (Keyword, Market Research, On/Off Page, Technical, Reports, Local, Strategy, Optimization)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >DevOps</span>
+                <span className="text-white textxl xs:text-lg  lg:text-xl font-inter" >DevOps</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (IaC, Docker, Kubernetes, Monitoring/Logging, Automation, CI/CD, PaaS)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Product Engineering</span>
+                <span className="text-white text-xl xs:text-lg  lg:text-xl font-inter" >Product Engineering</span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter px-2">
                   (CMS, E-commerce, UXI Engineering, Mobile, Web)
                 </span>
               </div>
 
               <div className="pb-3">
-                <span className="text-white text-base xs:text-lg font-bold lg:text-xl font-inter" >Hosting </span>
+                <span className="text-white text-xl  xs:text-lg  lg:text-xl font-inter" >Hosting </span>
                 <span className="text-white text-sm font-normal lg:text-xl font-inter">
                   (Dedicated, Private, Public, Hybrid)
                 </span>
@@ -122,6 +129,24 @@ function New_Page() {
 
         <div className=" text-white text-xl lg:text-3xl font-inter text-center w-3/4 mx-auto  py-2 xs:py-4 lg:my-1 0">
           Prepare for Lift-off: Our Website Lands Soon
+        </div>
+
+        <div className=" mx-5 mt-10">
+          <div className="flex ">
+            <img src="/id-badge-solid.svg" alt="..." width={20} height={20}  />
+            <p className="text-white px-3"> : +91 98244 47659 </p>
+          </div>
+          <div className=" flex">
+            <img src="/envelope-solid.svg" alt="..." width={20} height={20}  />
+            <p className="text-white px-3"> : info@roottechnologies.co.in </p>
+          </div>
+          <div className="flex ">
+          <img src="/address-book-solid.svg" alt="..." width={20} height={20}  /> 
+          <p className="text-white px-3"> : 703, Rajhans Montessa, Dumas Rd, beside Le Meridien Hotel, near Airport, Surat, Gujarat 395007 </p>
+          </div>
+          
+          
+
         </div>
         {/* Footer part content update */}
         <p className="text-xs leading-5 text-white  text-center py-5 lg:py-0">
