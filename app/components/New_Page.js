@@ -11,7 +11,7 @@ function New_Page() {
   return (
     <>
       <div
-        className=" bg-blue-800 overflow-hidden bg-cover 2xl:h-screen"
+        className=" bg-blue-800 overflow-hidden bg-cover xl:h-screen"
         style={{
           backgroundImage: "url(/new_background.jpg)",
         }}
