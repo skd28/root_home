@@ -50,6 +50,7 @@ function New_Landing() {
 
                     </div>
                 </div>
+                {/* Fotter */}
                 <p className="text-[0.7rem] w-[15rem] leading-5 text-white  text-center py-5 mx-auto lg:py-0">
                     Copyright © 2023 Root Technologies Pvt Ltd.  All Rights Reserved.{" "}
                 </p>
