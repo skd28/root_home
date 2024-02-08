@@ -25,7 +25,7 @@ function New_Landing() {
                         <div className='text-left py-[0.3rem] text-[0.6rem]  xs:text-[0.9rem]'>
                             We offer <strong> Networking </strong>, <strong>Security </strong> and  <strong>Product development </strong>  as our services.
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'> 
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
                             If you want to connect us, below is our office and contacts given below:
                         </div>
 
@@ -50,6 +50,9 @@ function New_Landing() {
 
                     </div>
                 </div>
+                <p className="text-[0.7rem] w-[15rem] leading-5 text-white  text-center py-5 mx-auto lg:py-0">
+                    Copyright © 2023 Root Technologies Pvt Ltd.  All Rights Reserved.{" "}
+                </p>
 
             </div>
         </>
