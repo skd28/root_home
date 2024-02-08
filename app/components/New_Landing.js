@@ -31,7 +31,7 @@ function New_Landing() {
 
                         <div className='py-[0.3rem]'>
                             <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>Email:</h4>
-                            <h4 className=' text-left text-base text-[0.6rem] xs:text-[0.9rem]'>info@roottechnologies.co.in</h4>
+                            <h4 className=' text-left  text-[0.6rem] xs:text-[0.9rem]'>info@roottechnologies.co.in</h4>
                         </div>
                         <div className='py-[0.3rem]'>
                             <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>Phone:</h4>
