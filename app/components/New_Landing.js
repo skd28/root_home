@@ -22,9 +22,38 @@ function New_Landing() {
                     </div>
 
                     <div className='bg-[E2EBF0] bg-white w-[15rem] xs:w-[18rem] sm:w-[20rem] md:w-[26rem] lg:w-[28rem]  mx-auto px-7 xs:px-7 rounded-md my-[0rem] lg:my-3 py-[0.8rem] lg:py-4 ' >
-                        <div className='text-left py-[0.3rem] text-[0.6rem]  xs:text-[0.9rem]'>
+                        {/* <div className='text-left py-[0.3rem] text-[0.6rem]  xs:text-[0.9rem]'>
                             We offer <strong> Networking </strong>, <strong>Security </strong> and  <strong>Product development </strong>  as our services.
+                        </div> */}
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                            <strong>Infrastructure :</strong>
+                            (Network Services, RMM, Email, Security, Backup/DRAAS)
                         </div>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                            <strong>Audit :</strong>
+                            (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
+                        </div>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                            <strong>Cloud :</strong>
+                            (Consulting, Integration, Migration, Monitoring/Management)
+                        </div>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                            <strong>SEO :</strong>
+                            (Keyword, Market Research, On/Off Page, Technical, Reports, Local, Strategy, Optimization)
+                        </div>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                            <strong>DevOps :</strong>
+                            (IaC, Docker, Kubernetes, Monitoring/Logging, Automation, CI/CD, PaaS)
+                        </div>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                            <strong>Product Engineering :</strong>
+                            (CMS, E-commerce, UXI Engineering, Mobile, Web)
+                        </div>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                            <strong>Hosting :</strong>
+                            (Dedicated, Private, Public, Hybrid)
+                        </div>
+
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
                             If you want to connect us, below is our office and contacts given below:
                         </div>
