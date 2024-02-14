@@ -13,8 +13,8 @@ function New_Landing() {
                 </div>
 
                 <div className='text-center  lg:mt-6'>
-                    <div className='text-white text-[1.6rem] xs:text-[2.5rem] xs:w-[18rem] sm:text-[3rem] sm:w-[26rem] md:w-[30rem] lg:w-[33rem] lg:text-[2.5rem]  w-[15rem]  mx-auto'>
-                        Welcome to Root Technical
+                    <div className='text-white text-[1.6rem] xs:text-[2.5rem] xs:w-[18rem] sm:text-[3rem] sm:w-[26rem] md:w-[30rem] lg:w-[40rem] lg:text-[2.5rem]  w-[15rem]  mx-auto'>
+                        Welcome to Root Integrated Technologies Pvt Ltd
                     </div>
 
                     <div className='text-white text-[1rem] xs:text-[1.2rem] xs:w-[18rem]  sm:text-[2rem] sm:w-[26rem] md:w-[30rem] lg:w-[33rem] lg:text-[1.8rem] w-[15rem]    mx-auto py-[0.5rem]'>
@@ -40,7 +40,7 @@ function New_Landing() {
                             </h4>
 
                         </div>
-                        <div className='py-0.3rem]'>
+                        <div className='py-[0.3rem]'>
                             <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>Address:</h4>
                             <h4 className='text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>308-308A Mint Chambers, 45/47 Mint Road, Mumbai 400001 INDIA</h4>
                             <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>
@@ -52,7 +52,7 @@ function New_Landing() {
                 </div>
                 {/* Fotter */}
                 <p className="text-[0.7rem] w-[15rem] leading-5 text-white  text-center py-5 mx-auto lg:py-0">
-                    Copyright © 2023 Root Technologies Pvt Ltd.  All Rights Reserved.{" "}
+                    Copyright © 2023 Root Integrated Technologies Pvt Ltd.  All Rights Reserved.{" "}
                 </p>
 
             </div>
