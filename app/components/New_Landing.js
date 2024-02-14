@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function New_Landing() {
     return (
         <>
@@ -25,52 +26,62 @@ function New_Landing() {
                         {/* <div className='text-left py-[0.3rem] text-[0.6rem]  xs:text-[0.9rem]'>
                             We offer <strong> Networking </strong>, <strong>Security </strong> and  <strong>Product development </strong>  as our services.
                         </div> */}
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
-                            <strong>Infrastructure :</strong>
+                        <div className='  py-[0.3rem] text-[0.8rem] xs:text-[1.2rem] text-center'>
+                            <strong>Our Services </strong>
+                        </div>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
+                            <img src='/circle-solid.svg'alt='...'  className='w-[0.6rem] h-[1.4rem]' />
+                            <strong className='whitespace-nowrap pl-1'>Infrastructure  :</strong>
                             (Network Services, RMM, Email, Security, Backup/DRAAS)
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
-                            <strong>Audit :</strong>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] h-[1.4rem]' />
+                            <strong className='whitespace-nowrap pl-1'>Audit  :</strong>
                             (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
-                            <strong>Cloud :</strong>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] h-[1.4rem]' />
+                            <strong className='whitespace-nowrap pl-1'>Cloud  :</strong>
                             (Consulting, Integration, Migration, Monitoring/Management)
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
-                            <strong>SEO :</strong>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] h-[1.4rem]' />
+                            <strong className='whitespace-nowrap pl-1'>SEO  :</strong>
                             (Keyword, Market Research, On/Off Page, Technical, Reports, Local, Strategy, Optimization)
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
-                            <strong>DevOps :</strong>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] h-[1.4rem]' />
+                            <strong className='whitespace-nowrap pl-1'>DevOps  :</strong>
                             (IaC, Docker, Kubernetes, Monitoring/Logging, Automation, CI/CD, PaaS)
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
-                            <strong>Product Engineering :</strong>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex '>
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] h-[1.4rem] ' />
+                            <strong className='whitespace-nowrap pl-1'>Product Engineering  :</strong>
                             (CMS, E-commerce, UXI Engineering, Mobile, Web)
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
-                            <strong>Hosting :</strong>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
+                        <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] h-[1.4rem] ' />
+                            <strong className='whitespace-nowrap pl-1 '>Hosting  :</strong>
                             (Dedicated, Private, Public, Hybrid)
                         </div>
 
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] pt-5'>
                             If you want to connect us, below is our office and contacts given below:
                         </div>
 
                         <div className='py-[0.3rem]'>
-                            <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>Email:</h4>
+                            <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem] font-semibold'>Email:</h4>
                             <h4 className=' text-left  text-[0.6rem] xs:text-[0.9rem]'>info@roottechnologies.co.in</h4>
                         </div>
                         <div className='py-[0.3rem]'>
-                            <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>Phone:</h4>
+                            <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem] font-semibold'>Phone:</h4>
                             <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>
                                 +91 98244 47659
                             </h4>
 
                         </div>
                         <div className='py-[0.3rem]'>
-                            <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>Address:</h4>
+                            <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem] font-semibold'>Address:</h4>
                             <h4 className='text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem]'>308-308A Mint Chambers, 45/47 Mint Road, Mumbai 400001 INDIA</h4>
                             <h4 className=' text-left text-[0.6rem] xs:text-[0.9rem]'>
                                 Rajhans Montessa, Office 703, Surat-Dumas Rd, Surat 395007 INDIA
