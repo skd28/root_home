@@ -29,38 +29,38 @@ function New_Landing() {
                         <div className='  py-[0.3rem] text-[0.8rem] xs:text-[1.2rem] text-center'>
                             <strong>Our Services </strong>
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
-                            <img src='/circle-solid.svg'alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.4rem]' />
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex whitespace-normal'>
+                            <img src='/circle-solid.svg'alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem] xs:[1rem] xs:h-[1.4rem] ' />
                             <strong className='whitespace-nowrap pl-1'>Infrastructure  :</strong>
-                            (Network Services, RMM, Email, Security, Backup/DRAAS)
+                            (Network Services, RMM, Email, Security, Backup/DRAAS, Laptop, Desktop)
                         </div>
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
-                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.4rem]' />
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem]  xs:h-[1.4rem] ' />
                             <strong className='whitespace-nowrap pl-1'>Audit  :</strong>
                             (Control Compliance Gap, Pentesting, GRC/ISMA/ITSA, Vulnerability Assessment)
                         </div>
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
-                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.4rem]' />
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem]  xs:h-[1.4rem] ' />
                             <strong className='whitespace-nowrap pl-1'>Cloud  :</strong>
                             (Consulting, Integration, Migration, Monitoring/Management)
                         </div>
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
-                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.4rem]' />
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem]  xs:h-[1.4rem] ' />
                             <strong className='whitespace-nowrap pl-1'>SEO  :</strong>
                             (Keyword, Market Research, On/Off Page, Technical, Reports, Local, Strategy, Optimization)
                         </div>
-                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
-                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.4rem]' />
+                        <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'> 
+                        <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem]  xs:h-[1.4rem]  ' />
                             <strong className='whitespace-nowrap pl-1'>DevOps  :</strong>
                             (IaC, Docker, Kubernetes, Monitoring/Logging, Automation, CI/CD, PaaS)
                         </div>
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex '>
-                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.4rem] ' />
+                            <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem]  xs:h-[1.4rem] ' />
                             <strong className='whitespace-nowrap pl-1'>Product Engineering  :</strong>
                             (CMS, E-commerce, UXI Engineering, Mobile, Web)
                         </div>
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex'>
-                        <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.4rem] ' />
+                        <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem]  xs:h-[1.4rem] ' />
                             <strong className='whitespace-nowrap pl-1 '>Hosting  :</strong>
                             (Dedicated, Private, Public, Hybrid)
                         </div>
