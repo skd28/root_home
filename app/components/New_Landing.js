@@ -55,6 +55,7 @@ function New_Landing() {
                             (IaC, Docker, Kubernetes, Monitoring/Logging, Automation, CI/CD, PaaS)
                         </div>
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] flex '>
+                            {/* Dot Image  */}
                             <img src='/circle-solid.svg' alt='...'  className='w-[0.6rem] md:h-[1.4rem] h-[0.7rem]  xs:h-[1.4rem] ' />
                             <strong className='whitespace-nowrap pl-1'>Product Engineering  :</strong>
                             (CMS, E-commerce, UXI Engineering, Mobile, Web)
@@ -66,7 +67,7 @@ function New_Landing() {
                         </div>
 
                         <div className=' text-left py-[0.3rem] text-[0.6rem] xs:text-[0.9rem] pt-5'>
-                            If you want to connect us, below is our office and contacts given below:
+                            If you want to connect us, below is our office and contacts given below:   
                         </div>
 
                         <div className='py-[0.3rem]'>
