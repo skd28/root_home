@@ -8,7 +8,7 @@ function New_Landing() {
             <div className='h-screen  object-cover  overflow-y-auto ' style={{
                 backgroundImage: "url(/new_background.jpg)",
             }}>
-
+                {/* Updated Logo */}
                 <div className='p-[1rem]'>
                     <img className='w-[5rem] xs:w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[10rem]' src="/root_logo.jpeg" alt='...' />
                 </div>
